@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 146836576, guid: 0472bdc8d6d15384d98f22ee34302f9c, type: 3}
+  m_Name: ProBuilderPreferences
+  m_EditorClassIdentifier: 
+  m_Bool_keys:
+  - pb_restrictSelectMaterialToCurrentSelection
+  - pbShowTrigger
+  - pbEnableBackfaceSelection
+  m_Int_keys:
+  - pbHandleAlignment
+  - pbDefaultEditLevel
+  - pbDefaultSelectionMode
+  - pb_GIWorkflowMode
+  - pbVertexColorTool
+  m_Float_keys:
+  - pbEditorScroll.x
+  - pbEditorScroll.y
+  - pbBevelAmount
+  m_String_keys:
+  - pbCurrentMaterialPalette
+  - pbVertexColorPrefs2
+  - pbVertexColorPrefs8
+  m_Color_keys: []
+  m_Material_keys: []
+  m_Bool_values: 010101
+  m_Int_values: 0000000000000000020000000000000000000000
+  m_Float_values:
+  - 0
+  - 147
+  - 0.2
+  m_String_values:
+  - Assets/Ass/ProCore/ProBuilder/Data/Default Material Palette.asset
+  - RGBA(0.000, 0.533, 1.000, 1.000)
+  - RGBA(0.811, 0.811, 0.811, 1.000)
+  m_Color_values: []
+  m_Material_values: []
