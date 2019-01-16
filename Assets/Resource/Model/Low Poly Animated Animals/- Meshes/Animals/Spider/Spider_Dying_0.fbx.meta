@@ -1,7 +1,9 @@
 fileFormatVersion: 2
-guid: 0831b5f636ea32a4faa3bd3d1299df4a
+guid: 91e19d47779c9fa4da3e9f4f24d6b1c6
+timeCreated: 1502017606
+licenseType: Store
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: joint100
     100002: joint101
@@ -97,17 +99,16 @@ ModelImporter:
     400088: joint99
     400090: spider2
     400092: //RootNode
-    2100000: ANIMAL-BLUE
     4300000: spider2
-    7400000: Take 001
+    7400000: Death 1
+    7400002: Death 2
+    7400004: Death 3
     9500000: //RootNode
     13700000: spider2
-  externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -120,50 +121,401 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Death 1
+      takeName: Take 001
+      firstFrame: 270
+      lastFrame: 302
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint115
+        weight: 1
+      - path: joint115/joint2
+        weight: 1
+      - path: joint115/joint2/joint3
+        weight: 1
+      - path: joint115/joint2/joint3/joint4
+        weight: 1
+      - path: joint115/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint115/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint115/joint2/joint92
+        weight: 1
+      - path: joint115/joint2/joint92/joint93
+        weight: 1
+      - path: joint115/joint2/joint92/joint93/joint94
+        weight: 1
+      - path: joint115/joint2/joint92/joint93/joint94/joint95
+        weight: 1
+      - path: joint115/joint2/joint96
+        weight: 1
+      - path: joint115/joint2/joint96/joint93 1
+        weight: 1
+      - path: joint115/joint2/joint96/joint93 1/joint94 1
+        weight: 1
+      - path: joint115/joint2/joint96/joint93 1/joint94 1/joint95 1
+        weight: 1
+      - path: joint115/joint2/joint97
+        weight: 1
+      - path: joint115/joint2/joint97/joint93 2
+        weight: 1
+      - path: joint115/joint2/joint97/joint93 2/joint94 2
+        weight: 1
+      - path: joint115/joint2/joint97/joint93 2/joint94 2/joint95 2
+        weight: 1
+      - path: joint115/joint2/joint98
+        weight: 1
+      - path: joint115/joint2/joint98/joint93 3
+        weight: 1
+      - path: joint115/joint2/joint98/joint93 3/joint94 3
+        weight: 1
+      - path: joint115/joint2/joint98/joint93 3/joint94 3/joint95 3
+        weight: 1
+      - path: joint115/joint2/joint99
+        weight: 1
+      - path: joint115/joint2/joint99/joint100
+        weight: 1
+      - path: joint115/joint2/joint99/joint100/joint101
+        weight: 1
+      - path: joint115/joint2/joint99/joint100/joint101/joint102
+        weight: 1
+      - path: joint115/joint2/joint103
+        weight: 1
+      - path: joint115/joint2/joint103/joint104
+        weight: 1
+      - path: joint115/joint2/joint103/joint104/joint105
+        weight: 1
+      - path: joint115/joint2/joint103/joint104/joint105/joint106
+        weight: 1
+      - path: joint115/joint2/joint107
+        weight: 1
+      - path: joint115/joint2/joint107/joint108
+        weight: 1
+      - path: joint115/joint2/joint107/joint108/joint109
+        weight: 1
+      - path: joint115/joint2/joint107/joint108/joint109/joint110
+        weight: 1
+      - path: joint115/joint2/joint111
+        weight: 1
+      - path: joint115/joint2/joint111/joint112
+        weight: 1
+      - path: joint115/joint2/joint111/joint112/joint113
+        weight: 1
+      - path: joint115/joint2/joint111/joint112/joint113/joint114
+        weight: 1
+      - path: joint115/joint57
+        weight: 1
+      - path: joint115/joint57/joint58
+        weight: 1
+      - path: joint115/joint57/joint58/joint59
+        weight: 1
+      - path: joint115/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint115/joint57/joint89
+        weight: 1
+      - path: joint115/joint57/joint89/joint90
+        weight: 1
+      - path: joint115/joint57/joint89/joint90/joint91
+        weight: 1
+      - path: spider2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death 2
+      takeName: Take 001
+      firstFrame: 310
+      lastFrame: 363
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint115
+        weight: 1
+      - path: joint115/joint2
+        weight: 1
+      - path: joint115/joint2/joint3
+        weight: 1
+      - path: joint115/joint2/joint3/joint4
+        weight: 1
+      - path: joint115/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint115/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint115/joint2/joint92
+        weight: 1
+      - path: joint115/joint2/joint92/joint93
+        weight: 1
+      - path: joint115/joint2/joint92/joint93/joint94
+        weight: 1
+      - path: joint115/joint2/joint92/joint93/joint94/joint95
+        weight: 1
+      - path: joint115/joint2/joint96
+        weight: 1
+      - path: joint115/joint2/joint96/joint93 1
+        weight: 1
+      - path: joint115/joint2/joint96/joint93 1/joint94 1
+        weight: 1
+      - path: joint115/joint2/joint96/joint93 1/joint94 1/joint95 1
+        weight: 1
+      - path: joint115/joint2/joint97
+        weight: 1
+      - path: joint115/joint2/joint97/joint93 2
+        weight: 1
+      - path: joint115/joint2/joint97/joint93 2/joint94 2
+        weight: 1
+      - path: joint115/joint2/joint97/joint93 2/joint94 2/joint95 2
+        weight: 1
+      - path: joint115/joint2/joint98
+        weight: 1
+      - path: joint115/joint2/joint98/joint93 3
+        weight: 1
+      - path: joint115/joint2/joint98/joint93 3/joint94 3
+        weight: 1
+      - path: joint115/joint2/joint98/joint93 3/joint94 3/joint95 3
+        weight: 1
+      - path: joint115/joint2/joint99
+        weight: 1
+      - path: joint115/joint2/joint99/joint100
+        weight: 1
+      - path: joint115/joint2/joint99/joint100/joint101
+        weight: 1
+      - path: joint115/joint2/joint99/joint100/joint101/joint102
+        weight: 1
+      - path: joint115/joint2/joint103
+        weight: 1
+      - path: joint115/joint2/joint103/joint104
+        weight: 1
+      - path: joint115/joint2/joint103/joint104/joint105
+        weight: 1
+      - path: joint115/joint2/joint103/joint104/joint105/joint106
+        weight: 1
+      - path: joint115/joint2/joint107
+        weight: 1
+      - path: joint115/joint2/joint107/joint108
+        weight: 1
+      - path: joint115/joint2/joint107/joint108/joint109
+        weight: 1
+      - path: joint115/joint2/joint107/joint108/joint109/joint110
+        weight: 1
+      - path: joint115/joint2/joint111
+        weight: 1
+      - path: joint115/joint2/joint111/joint112
+        weight: 1
+      - path: joint115/joint2/joint111/joint112/joint113
+        weight: 1
+      - path: joint115/joint2/joint111/joint112/joint113/joint114
+        weight: 1
+      - path: joint115/joint57
+        weight: 1
+      - path: joint115/joint57/joint58
+        weight: 1
+      - path: joint115/joint57/joint58/joint59
+        weight: 1
+      - path: joint115/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint115/joint57/joint89
+        weight: 1
+      - path: joint115/joint57/joint89/joint90
+        weight: 1
+      - path: joint115/joint57/joint89/joint90/joint91
+        weight: 1
+      - path: spider2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Death 3
+      takeName: Take 001
+      firstFrame: 370
+      lastFrame: 448
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint115
+        weight: 1
+      - path: joint115/joint2
+        weight: 1
+      - path: joint115/joint2/joint3
+        weight: 1
+      - path: joint115/joint2/joint3/joint4
+        weight: 1
+      - path: joint115/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: joint115/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: joint115/joint2/joint92
+        weight: 1
+      - path: joint115/joint2/joint92/joint93
+        weight: 1
+      - path: joint115/joint2/joint92/joint93/joint94
+        weight: 1
+      - path: joint115/joint2/joint92/joint93/joint94/joint95
+        weight: 1
+      - path: joint115/joint2/joint96
+        weight: 1
+      - path: joint115/joint2/joint96/joint93 1
+        weight: 1
+      - path: joint115/joint2/joint96/joint93 1/joint94 1
+        weight: 1
+      - path: joint115/joint2/joint96/joint93 1/joint94 1/joint95 1
+        weight: 1
+      - path: joint115/joint2/joint97
+        weight: 1
+      - path: joint115/joint2/joint97/joint93 2
+        weight: 1
+      - path: joint115/joint2/joint97/joint93 2/joint94 2
+        weight: 1
+      - path: joint115/joint2/joint97/joint93 2/joint94 2/joint95 2
+        weight: 1
+      - path: joint115/joint2/joint98
+        weight: 1
+      - path: joint115/joint2/joint98/joint93 3
+        weight: 1
+      - path: joint115/joint2/joint98/joint93 3/joint94 3
+        weight: 1
+      - path: joint115/joint2/joint98/joint93 3/joint94 3/joint95 3
+        weight: 1
+      - path: joint115/joint2/joint99
+        weight: 1
+      - path: joint115/joint2/joint99/joint100
+        weight: 1
+      - path: joint115/joint2/joint99/joint100/joint101
+        weight: 1
+      - path: joint115/joint2/joint99/joint100/joint101/joint102
+        weight: 1
+      - path: joint115/joint2/joint103
+        weight: 1
+      - path: joint115/joint2/joint103/joint104
+        weight: 1
+      - path: joint115/joint2/joint103/joint104/joint105
+        weight: 1
+      - path: joint115/joint2/joint103/joint104/joint105/joint106
+        weight: 1
+      - path: joint115/joint2/joint107
+        weight: 1
+      - path: joint115/joint2/joint107/joint108
+        weight: 1
+      - path: joint115/joint2/joint107/joint108/joint109
+        weight: 1
+      - path: joint115/joint2/joint107/joint108/joint109/joint110
+        weight: 1
+      - path: joint115/joint2/joint111
+        weight: 1
+      - path: joint115/joint2/joint111/joint112
+        weight: 1
+      - path: joint115/joint2/joint111/joint112/joint113
+        weight: 1
+      - path: joint115/joint2/joint111/joint112/joint113/joint114
+        weight: 1
+      - path: joint115/joint57
+        weight: 1
+      - path: joint115/joint57/joint58
+        weight: 1
+      - path: joint115/joint57/joint58/joint59
+        weight: 1
+      - path: joint115/joint57/joint58/joint59/joint60
+        weight: 1
+      - path: joint115/joint57/joint89
+        weight: 1
+      - path: joint115/joint57/joint89/joint90
+        weight: 1
+      - path: joint115/joint57/joint89/joint90/joint91
+        weight: 1
+      - path: spider2
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -178,6 +530,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

@@ -1,7 +1,9 @@
 fileFormatVersion: 2
-guid: 16bab80ce83193e4f941f2991efcb13e
+guid: 52dcb054c329e2c46959384093d7477d
+timeCreated: 1497269301
+licenseType: Store
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: bow_credits
     100002: cluster48Handle
@@ -1527,15 +1529,12 @@ ModelImporter:
     401518: horse_sk_rt_hipend
     401520: horse_skeleton
     401522: left
-    2000000: left
-    7400000: Take 001
+    7400000: Run
     9500000: //RootNode
-  externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -1548,50 +1547,1591 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: horse
+        weight: 1
+      - path: horse/horse_controls
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/bow_credits
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_cn_jaw_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_cn_jaw_offset/horse_ac_cn_jaw
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_lf_ear1_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_lf_ear1_offset/horse_ac_lf_ear1
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_lf_ear1_offset/horse_ac_lf_ear1/horse_ac_lf_ear2_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_lf_ear1_offset/horse_ac_lf_ear1/horse_ac_lf_ear2_offset/horse_ac_lf_ear2
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_lf_ear1_offset/horse_ac_lf_ear1/horse_ac_lf_ear2_offset/horse_ac_lf_ear2/horse_ac_lf_ear3_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_lf_ear1_offset/horse_ac_lf_ear1/horse_ac_lf_ear2_offset/horse_ac_lf_ear2/horse_ac_lf_ear3_offset/horse_ac_lf_ear3
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_lf_ear1_offset/horse_ac_lf_ear1/horse_ac_lf_ear2_offset/horse_ac_lf_ear2/horse_ac_lf_ear3_offset/horse_ac_lf_ear3/horse_ac_lf_ear4_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_lf_ear1_offset/horse_ac_lf_ear1/horse_ac_lf_ear2_offset/horse_ac_lf_ear2/horse_ac_lf_ear3_offset/horse_ac_lf_ear3/horse_ac_lf_ear4_offset/horse_ac_lf_ear4
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_lf_eye_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_lf_eye_offset/horse_ac_lf_eye
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_lf_look_eye_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_lf_look_eye_offset/horse_ac_lf_look_eye
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_rt_ear1_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_rt_ear1_offset/horse_ac_rt_ear1
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_rt_ear1_offset/horse_ac_rt_ear1/horse_ac_rt_ear2_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_rt_ear1_offset/horse_ac_rt_ear1/horse_ac_rt_ear2_offset/horse_ac_rt_ear2
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_rt_ear1_offset/horse_ac_rt_ear1/horse_ac_rt_ear2_offset/horse_ac_rt_ear2/horse_ac_rt_ear3_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_rt_ear1_offset/horse_ac_rt_ear1/horse_ac_rt_ear2_offset/horse_ac_rt_ear2/horse_ac_rt_ear3_offset/horse_ac_rt_ear3
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_rt_ear1_offset/horse_ac_rt_ear1/horse_ac_rt_ear2_offset/horse_ac_rt_ear2/horse_ac_rt_ear3_offset/horse_ac_rt_ear3/horse_ac_rt_ear4_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_rt_ear1_offset/horse_ac_rt_ear1/horse_ac_rt_ear2_offset/horse_ac_rt_ear2/horse_ac_rt_ear3_offset/horse_ac_rt_ear3/horse_ac_rt_ear4_offset/horse_ac_rt_ear4
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_rt_eye_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_rt_eye_offset/horse_ac_rt_eye
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_rt_look_eye_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_offset/horse_ac_cn_head/horse_ac_rt_look_eye_offset/horse_ac_rt_look_eye
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_head_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_neck1_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_neck1_offset/horse_ac_cn_neck1
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_neck1_offset/horse_ac_cn_neck1/horse_ac_cn_neck2_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_neck1_offset/horse_ac_cn_neck1/horse_ac_cn_neck2_offset/horse_ac_cn_neck2
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_neck1_offset/horse_ac_cn_neck1/horse_ac_cn_neck2_offset/horse_ac_cn_neck2/horse_ac_cn_neck3_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_neck1_offset/horse_ac_cn_neck1/horse_ac_cn_neck2_offset/horse_ac_cn_neck2/horse_ac_cn_neck3_offset/horse_ac_cn_neck3
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_neck1_offset/horse_ac_cn_neck1/horse_ac_cn_neck2_offset/horse_ac_cn_neck2/horse_ac_cn_neck3_offset/horse_ac_cn_neck3/horse_ac_cn_neck4_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_neck1_offset/horse_ac_cn_neck1/horse_ac_cn_neck2_offset/horse_ac_cn_neck2/horse_ac_cn_neck3_offset/horse_ac_cn_neck3/horse_ac_cn_neck4_offset/horse_ac_cn_neck4
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_neck1_offset/horse_ac_cn_neck1/horse_ac_cn_neck2_offset/horse_ac_cn_neck2/horse_ac_cn_neck3_offset/horse_ac_cn_neck3/horse_ac_cn_neck4_offset/horse_ac_cn_neck4/horse_ac_cn_head_neckspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_neck1_offset/horse_ac_cn_neck1/horse_ac_cn_neck2_offset/horse_ac_cn_neck2/horse_ac_cn_neck3_offset/horse_ac_cn_neck3/horse_ac_cn_neck4_offset/horse_ac_cn_neck4/horse_ac_cn_head_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_neck1_wordspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_chest_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_chest_offset/horse_ac_cn_chest
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_chest_offset/horse_ac_cn_chest/horse_ac_cn_neck1_bodyspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_chest_offset/horse_ac_cn_chest/horse_ac_cn_neck1_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_chest_offset/horse_ac_cn_chest/horse_ac_lf_shoulder_chestspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_chest_offset/horse_ac_cn_chest/horse_ac_lf_shoulder_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_chest_offset/horse_ac_cn_chest/horse_ac_rt_shoulder_chestspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_chest_offset/horse_ac_cn_chest/horse_ac_rt_shoulder_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_chest_offset/horse_ac_cn_chest/horse_cn_spine_topcluster
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_pelvis_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_pelvis_offset/horse_ac_cn_pelvis
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_pelvis_offset/horse_ac_cn_pelvis/horse_ac_cn_tail_1_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_pelvis_offset/horse_ac_cn_pelvis/horse_ac_cn_tail_1_pelvisspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_pelvis_offset/horse_ac_cn_pelvis/horse_ac_lf_hip_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_pelvis_offset/horse_ac_cn_pelvis/horse_ac_lf_hip_pelvispace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_pelvis_offset/horse_ac_cn_pelvis/horse_ac_rt_hip_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_pelvis_offset/horse_ac_cn_pelvis/horse_ac_rt_hip_pelvisspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_pelvis_offset/horse_ac_cn_pelvis/horse_cn_spine_bottomcluster
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_spineFK1_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_spineFK1_offset/horse_ac_cn_spineFK1
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_spineFK1_offset/horse_ac_cn_spineFK1/horse_ac_cn_spineFK2_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_spineFK1_offset/horse_ac_cn_spineFK1/horse_ac_cn_spineFK2_offset/horse_ac_cn_spineFK2
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_spineFK1_offset/horse_ac_cn_spineFK1/horse_ac_cn_spineFK2_offset/horse_ac_cn_spineFK2/horse_ac_cn_spineFK3_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_spineFK1_offset/horse_ac_cn_spineFK1/horse_ac_cn_spineFK2_offset/horse_ac_cn_spineFK2/horse_ac_cn_spineFK3_offset/horse_ac_cn_spineFK3
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_spineFK3_inv_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_spineFK3_inv_offset/horse_ac_cn_spineFK3_inv
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_spineFK3_inv_offset/horse_ac_cn_spineFK3_inv/horse_ac_cn_spineFK2_inv_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_spineFK3_inv_offset/horse_ac_cn_spineFK3_inv/horse_ac_cn_spineFK2_inv_offset/horse_ac_cn_spineFK2_inv
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_spineFK3_inv_offset/horse_ac_cn_spineFK3_inv/horse_ac_cn_spineFK2_inv_offset/horse_ac_cn_spineFK2_inv/horse_ac_cn_spineFK1_inv_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_root_offset/horse_ac_cn_root/horse_ac_cn_spineFK3_inv_offset/horse_ac_cn_spineFK3_inv/horse_ac_cn_spineFK2_inv_offset/horse_ac_cn_spineFK2_inv/horse_ac_cn_spineFK1_inv_offset/horse_ac_cn_spineFK1_inv
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_tail_1_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_tail_1_offset/horse_ac_cn_tail_1
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_tail_1_offset/horse_ac_cn_tail_1/horse_ac_cn_tail_2_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_tail_1_offset/horse_ac_cn_tail_1/horse_ac_cn_tail_2_offset/horse_ac_cn_tail_2
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_tail_1_offset/horse_ac_cn_tail_1/horse_ac_cn_tail_2_offset/horse_ac_cn_tail_2/horse_ac_cn_tail_3_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_tail_1_offset/horse_ac_cn_tail_1/horse_ac_cn_tail_2_offset/horse_ac_cn_tail_2/horse_ac_cn_tail_3_offset/horse_ac_cn_tail_3
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_tail_1_offset/horse_ac_cn_tail_1/horse_ac_cn_tail_2_offset/horse_ac_cn_tail_2/horse_ac_cn_tail_3_offset/horse_ac_cn_tail_3/horse_ac_cn_tail_4_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_tail_1_offset/horse_ac_cn_tail_1/horse_ac_cn_tail_2_offset/horse_ac_cn_tail_2/horse_ac_cn_tail_3_offset/horse_ac_cn_tail_3/horse_ac_cn_tail_4_offset/horse_ac_cn_tail_4
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_tail_1_offset/horse_ac_cn_tail_1/horse_ac_cn_tail_2_offset/horse_ac_cn_tail_2/horse_ac_cn_tail_3_offset/horse_ac_cn_tail_3/horse_ac_cn_tail_4_offset/horse_ac_cn_tail_4/horse_ac_cn_tail_5_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_tail_1_offset/horse_ac_cn_tail_1/horse_ac_cn_tail_2_offset/horse_ac_cn_tail_2/horse_ac_cn_tail_3_offset/horse_ac_cn_tail_3/horse_ac_cn_tail_4_offset/horse_ac_cn_tail_4/horse_ac_cn_tail_5_offset/horse_ac_cn_tail_5
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_cn_tail_1_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_ac_lf_back_hoof_ik_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_ac_lf_back_hoof_ik_offset/horse_ac_lf_back_hoof_ik
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_ac_lf_back_legPole_footspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_lf_back_ball_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_lf_back_ball_pivot/horse_lf_back_front_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_lf_back_ball_pivot/horse_lf_back_front_pivot/horse_lf_back_bankext_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_lf_back_ball_pivot/horse_lf_back_front_pivot/horse_lf_back_bankext_pivot/horse_lf_back_bankint_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_lf_back_ball_pivot/horse_lf_back_front_pivot/horse_lf_back_bankext_pivot/horse_lf_back_bankint_pivot/horse_ac_lf_back_hoof_ik_connect_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_lf_back_ball_pivot/horse_lf_back_front_pivot/horse_lf_back_bankext_pivot/horse_lf_back_bankint_pivot/horse_ac_lf_back_hoof_ik_connect_offset/horse_ac_lf_back_hoof_ik_connect
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_lf_back_ball_pivot/horse_lf_back_front_pivot/horse_lf_back_bankext_pivot/horse_lf_back_bankint_pivot/horse_ac_lf_back_hoof_ik_connect_offset/horse_ac_lf_back_hoof_ik_connect/horse_lf_back_hoof_ikhandle
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_lf_back_ball_pivot/horse_lf_back_front_pivot/horse_lf_back_bankext_pivot/horse_lf_back_bankint_pivot/horse_ac_lf_back_hoof_ik_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_lf_back_ball_pivot/horse_lf_back_front_pivot/horse_lf_back_bankext_pivot/horse_lf_back_bankint_pivot/horse_lf_back_hoof_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_lf_back_ball_pivot/horse_lf_back_front_pivot/horse_lf_back_bankext_pivot/horse_lf_back_bankint_pivot/horse_lf_back_hoof_pivot/horse_lf_back_toe_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_lf_back_ball_pivot/horse_lf_back_front_pivot/horse_lf_back_bankext_pivot/horse_lf_back_bankint_pivot/horse_lf_back_hoof_pivot/horse_lf_back_toe_pcon/horse_lf_back_toe_ikhandle
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_lf_back_ball_pivot/horse_lf_back_front_pivot/horse_lf_back_bankext_pivot/horse_lf_back_bankint_pivot/horse_lf_back_stretch_toe_loc
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_lf_back_ball_pivot/horse_lf_back_front_pivot/horse_lf_back_bankext_pivot/horse_lf_back_bankint_pivot/horse_sk_lf_back_toe_orientIK_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_offset/horse_ac_lf_back_footIK/horse_lf_back_ball_pivot/horse_lf_back_front_pivot/horse_lf_back_bankext_pivot/horse_lf_back_bankint_pivot/horse_sk_lf_back_toe_orientIK_offset/horse_sk_lf_back_toe_orientIK
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_footIK_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_knee_fk_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_knee_fk_offset/horse_ac_lf_back_knee_fk
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_knee_fk_offset/horse_ac_lf_back_knee_fk/horse_ac_lf_back_ankle_fk_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_knee_fk_offset/horse_ac_lf_back_knee_fk/horse_ac_lf_back_ankle_fk_offset/horse_ac_lf_back_ankle_fk
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_knee_fk_offset/horse_ac_lf_back_knee_fk/horse_ac_lf_back_ankle_fk_offset/horse_ac_lf_back_ankle_fk/horse_ac_lf_back_toe_fk_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_knee_fk_offset/horse_ac_lf_back_knee_fk/horse_ac_lf_back_ankle_fk_offset/horse_ac_lf_back_ankle_fk/horse_ac_lf_back_toe_fk_offset/horse_ac_lf_back_toe_fk
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_knee_fk_offset/horse_ac_lf_back_knee_fk/horse_ac_lf_back_ankle_fk_offset/horse_ac_lf_back_ankle_fk/horse_ac_lf_back_toe_fk_offset/horse_ac_lf_back_toe_fk/horse_ac_lf_back_hoof_fk_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_knee_fk_offset/horse_ac_lf_back_knee_fk/horse_ac_lf_back_ankle_fk_offset/horse_ac_lf_back_ankle_fk/horse_ac_lf_back_toe_fk_offset/horse_ac_lf_back_toe_fk/horse_ac_lf_back_hoof_fk_offset/horse_ac_lf_back_hoof_fk
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_knee_fk_offset/horse_ac_lf_back_knee_fk/horse_ac_lf_back_ankle_fk_offset/horse_ac_lf_back_ankle_fk/horse_ac_lf_back_toe_fk_offset/horse_ac_lf_back_toe_fk/horse_sk_lf_back_toe_orientFK_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_knee_fk_offset/horse_ac_lf_back_knee_fk/horse_ac_lf_back_ankle_fk_offset/horse_ac_lf_back_ankle_fk/horse_ac_lf_back_toe_fk_offset/horse_ac_lf_back_toe_fk/horse_sk_lf_back_toe_orientFK_offset/horse_sk_lf_back_toe_orientFK
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_knee_fk_offset/horse_ac_lf_back_knee_fk/horse_ac_lf_back_leg_parcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_knee_fk_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_leg_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_leg_offset/horse_ac_lf_back_leg
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_leg_offset/horse_ac_lf_back_leg/horse_ac_lf_back_footIK_legspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_leg_offset/horse_ac_lf_back_leg/horse_lf_back_stretch_knee_loc
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_leg_settings_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_leg_settings_offset/horse_ac_lf_back_leg_settings
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_leg_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_legPole_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_legPole_offset/horse_ac_lf_back_legPole
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_legPole_offset/horse_ac_lf_back_legPole/horse_lf_back_leg_pole_cluster
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_legPole_offset/horse_ac_lf_back_legPole/horse_lf_back_stretch_ankle_loc
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_back_legPole_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_elbow_fk_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_elbow_fk_offset/horse_ac_lf_front_elbow_fk
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_elbow_fk_offset/horse_ac_lf_front_elbow_fk/horse_ac_lf_front_ankle_fk_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_elbow_fk_offset/horse_ac_lf_front_elbow_fk/horse_ac_lf_front_ankle_fk_offset/horse_ac_lf_front_ankle_fk
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_elbow_fk_offset/horse_ac_lf_front_elbow_fk/horse_ac_lf_front_ankle_fk_offset/horse_ac_lf_front_ankle_fk/horse_ac_lf_front_toe_fk_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_elbow_fk_offset/horse_ac_lf_front_elbow_fk/horse_ac_lf_front_ankle_fk_offset/horse_ac_lf_front_ankle_fk/horse_ac_lf_front_toe_fk_offset/horse_ac_lf_front_toe_fk
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_elbow_fk_offset/horse_ac_lf_front_elbow_fk/horse_ac_lf_front_ankle_fk_offset/horse_ac_lf_front_ankle_fk/horse_ac_lf_front_toe_fk_offset/horse_ac_lf_front_toe_fk/horse_ac_lf_front_hoof_fk_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_elbow_fk_offset/horse_ac_lf_front_elbow_fk/horse_ac_lf_front_ankle_fk_offset/horse_ac_lf_front_ankle_fk/horse_ac_lf_front_toe_fk_offset/horse_ac_lf_front_toe_fk/horse_ac_lf_front_hoof_fk_offset/horse_ac_lf_front_hoof_fk
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_elbow_fk_offset/horse_ac_lf_front_elbow_fk/horse_ac_lf_front_ankle_fk_offset/horse_ac_lf_front_ankle_fk/horse_ac_lf_front_toe_fk_offset/horse_ac_lf_front_toe_fk/horse_sk_lf_front_toe_orientFK_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_elbow_fk_offset/horse_ac_lf_front_elbow_fk/horse_ac_lf_front_ankle_fk_offset/horse_ac_lf_front_ankle_fk/horse_ac_lf_front_toe_fk_offset/horse_ac_lf_front_toe_fk/horse_sk_lf_front_toe_orientFK_offset/horse_sk_lf_front_toe_orientFK
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_elbow_fk_offset/horse_ac_lf_front_elbow_fk/horse_ac_lf_front_elbow_fk_ocont
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_elbow_fk_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_ac_lf_front_hoof_ik_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_ac_lf_front_hoof_ik_offset/horse_ac_lf_front_hoof_ik
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_ac_lf_front_legPole_footspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_lf_front_ball_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_lf_front_ball_pivot/horse_lf_front_front_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_lf_front_ball_pivot/horse_lf_front_front_pivot/horse_lf_front_bankext_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_lf_front_ball_pivot/horse_lf_front_front_pivot/horse_lf_front_bankext_pivot/horse_lf_front_bankint_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_lf_front_ball_pivot/horse_lf_front_front_pivot/horse_lf_front_bankext_pivot/horse_lf_front_bankint_pivot/horse_ac_lf_front_hoof_ik_connect_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_lf_front_ball_pivot/horse_lf_front_front_pivot/horse_lf_front_bankext_pivot/horse_lf_front_bankint_pivot/horse_ac_lf_front_hoof_ik_connect_offset/horse_ac_lf_front_hoof_ik_connect
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_lf_front_ball_pivot/horse_lf_front_front_pivot/horse_lf_front_bankext_pivot/horse_lf_front_bankint_pivot/horse_ac_lf_front_hoof_ik_connect_offset/horse_ac_lf_front_hoof_ik_connect/horse_lf_front_hoof_ikhandle
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_lf_front_ball_pivot/horse_lf_front_front_pivot/horse_lf_front_bankext_pivot/horse_lf_front_bankint_pivot/horse_ac_lf_front_hoof_ik_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_lf_front_ball_pivot/horse_lf_front_front_pivot/horse_lf_front_bankext_pivot/horse_lf_front_bankint_pivot/horse_lf_front_hoof_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_lf_front_ball_pivot/horse_lf_front_front_pivot/horse_lf_front_bankext_pivot/horse_lf_front_bankint_pivot/horse_lf_front_hoof_pivot/horse_lf_front_toe_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_lf_front_ball_pivot/horse_lf_front_front_pivot/horse_lf_front_bankext_pivot/horse_lf_front_bankint_pivot/horse_lf_front_hoof_pivot/horse_lf_front_toe_pcon/horse_lf_front_toe_ikhandle
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_lf_front_ball_pivot/horse_lf_front_front_pivot/horse_lf_front_bankext_pivot/horse_lf_front_bankint_pivot/horse_lf_front_stretch_toe_loc
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_lf_front_ball_pivot/horse_lf_front_front_pivot/horse_lf_front_bankext_pivot/horse_lf_front_bankint_pivot/horse_sk_lf_front_toe_orientIK_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_offset/horse_ac_lf_front_footIK/horse_lf_front_ball_pivot/horse_lf_front_front_pivot/horse_lf_front_bankext_pivot/horse_lf_front_bankint_pivot/horse_sk_lf_front_toe_orientIK_offset/horse_sk_lf_front_toe_orientIK
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_footIK_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_leg_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_leg_offset/horse_ac_lf_front_leg
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_leg_offset/horse_ac_lf_front_leg/horse_ac_lf_front_footIK_legspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_leg_offset/horse_ac_lf_front_leg/horse_lf_front_stretch_elbow_loc
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_leg_settings_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_leg_settings_offset/horse_ac_lf_front_leg_settings
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_leg_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_legPole_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_legPole_offset/horse_ac_lf_front_legPole
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_legPole_offset/horse_ac_lf_front_legPole/horse_lf_front_leg_pole_clusterCluster
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_legPole_offset/horse_ac_lf_front_legPole/horse_lf_front_stretch_knee_loc
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_front_legPole_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_hip_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_hip_offset/horse_ac_lf_hip_offset_space
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_hip_offset/horse_ac_lf_hip_offset_space/horse_ac_lf_hip
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_hip_offset/horse_ac_lf_hip_offset_space/horse_ac_lf_hip/horse_ac_lf_back_knee_fk_hipspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_hip_offset/horse_ac_lf_hip_offset_space/horse_ac_lf_hip/horse_ac_lf_back_knee_fk_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_hip_offset/horse_ac_lf_hip_offset_space/horse_ac_lf_hip/horse_ac_lf_back_leg_hipspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_hip_offset/horse_ac_lf_hip_offset_space/horse_ac_lf_hip/horse_ac_lf_back_leg_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_hip_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_shoulder_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_shoulder_offset/horse_ac_lf_shoulder
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_shoulder_offset/horse_ac_lf_shoulder/horse_ac_lf_shoulder_point_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_shoulder_offset/horse_ac_lf_shoulder/horse_ac_lf_shoulder_point_offset/horse_ac_lf_shoulder_point
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_shoulder_offset/horse_ac_lf_shoulder/horse_ac_lf_shoulder_point_offset/horse_ac_lf_shoulder_point/horse_ac_lf_front_elbow_fk_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_shoulder_offset/horse_ac_lf_shoulder/horse_ac_lf_shoulder_point_offset/horse_ac_lf_shoulder_point/horse_ac_lf_front_elbow_fk_shoulderspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_shoulder_offset/horse_ac_lf_shoulder/horse_ac_lf_shoulder_point_offset/horse_ac_lf_shoulder_point/horse_ac_lf_front_leg_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_shoulder_offset/horse_ac_lf_shoulder/horse_ac_lf_shoulder_point_offset/horse_ac_lf_shoulder_point/horse_ac_lf_front_leg_shoulderpointspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_lf_shoulder_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_ac_rt_back_hoof_ik_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_ac_rt_back_hoof_ik_offset/horse_ac_rt_back_hoof_ik
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_ac_rt_back_legPole_footspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_rt_back_ball_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_rt_back_ball_pivot/horse_rt_back_front_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_rt_back_ball_pivot/horse_rt_back_front_pivot/horse_rt_back_bankext_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_rt_back_ball_pivot/horse_rt_back_front_pivot/horse_rt_back_bankext_pivot/horse_rt_back_bankint_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_rt_back_ball_pivot/horse_rt_back_front_pivot/horse_rt_back_bankext_pivot/horse_rt_back_bankint_pivot/horse_ac_rt_back_hoof_ik_connect_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_rt_back_ball_pivot/horse_rt_back_front_pivot/horse_rt_back_bankext_pivot/horse_rt_back_bankint_pivot/horse_ac_rt_back_hoof_ik_connect_offset/horse_ac_rt_back_hoof_ik_connect
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_rt_back_ball_pivot/horse_rt_back_front_pivot/horse_rt_back_bankext_pivot/horse_rt_back_bankint_pivot/horse_ac_rt_back_hoof_ik_connect_offset/horse_ac_rt_back_hoof_ik_connect/horse_rt_back_hoof_ikhandle
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_rt_back_ball_pivot/horse_rt_back_front_pivot/horse_rt_back_bankext_pivot/horse_rt_back_bankint_pivot/horse_ac_rt_back_hoof_ik_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_rt_back_ball_pivot/horse_rt_back_front_pivot/horse_rt_back_bankext_pivot/horse_rt_back_bankint_pivot/horse_rt_back_hoof_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_rt_back_ball_pivot/horse_rt_back_front_pivot/horse_rt_back_bankext_pivot/horse_rt_back_bankint_pivot/horse_rt_back_hoof_pivot/horse_rt_back_toe_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_rt_back_ball_pivot/horse_rt_back_front_pivot/horse_rt_back_bankext_pivot/horse_rt_back_bankint_pivot/horse_rt_back_hoof_pivot/horse_rt_back_toe_pcon/horse_rt_back_toe_ikhandle
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_rt_back_ball_pivot/horse_rt_back_front_pivot/horse_rt_back_bankext_pivot/horse_rt_back_bankint_pivot/horse_rt_back_stretch_toe_loc
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_rt_back_ball_pivot/horse_rt_back_front_pivot/horse_rt_back_bankext_pivot/horse_rt_back_bankint_pivot/horse_sk_rt_back_toe_orientIK_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_offset/horse_ac_rt_back_footIK/horse_rt_back_ball_pivot/horse_rt_back_front_pivot/horse_rt_back_bankext_pivot/horse_rt_back_bankint_pivot/horse_sk_rt_back_toe_orientIK_offset/horse_sk_rt_back_toe_orientIK
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_footIK_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_knee_fk_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_knee_fk_offset/horse_ac_rt_back_knee_fk
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_knee_fk_offset/horse_ac_rt_back_knee_fk/horse_ac_rt_back_ankle_fk_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_knee_fk_offset/horse_ac_rt_back_knee_fk/horse_ac_rt_back_ankle_fk_offset/horse_ac_rt_back_ankle_fk
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_knee_fk_offset/horse_ac_rt_back_knee_fk/horse_ac_rt_back_ankle_fk_offset/horse_ac_rt_back_ankle_fk/horse_ac_rt_back_toe_fk_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_knee_fk_offset/horse_ac_rt_back_knee_fk/horse_ac_rt_back_ankle_fk_offset/horse_ac_rt_back_ankle_fk/horse_ac_rt_back_toe_fk_offset/horse_ac_rt_back_toe_fk
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_knee_fk_offset/horse_ac_rt_back_knee_fk/horse_ac_rt_back_ankle_fk_offset/horse_ac_rt_back_ankle_fk/horse_ac_rt_back_toe_fk_offset/horse_ac_rt_back_toe_fk/horse_ac_rt_back_hoof_fk_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_knee_fk_offset/horse_ac_rt_back_knee_fk/horse_ac_rt_back_ankle_fk_offset/horse_ac_rt_back_ankle_fk/horse_ac_rt_back_toe_fk_offset/horse_ac_rt_back_toe_fk/horse_ac_rt_back_hoof_fk_offset/horse_ac_rt_back_hoof_fk
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_knee_fk_offset/horse_ac_rt_back_knee_fk/horse_ac_rt_back_ankle_fk_offset/horse_ac_rt_back_ankle_fk/horse_ac_rt_back_toe_fk_offset/horse_ac_rt_back_toe_fk/horse_sk_rt_back_toe_orientFK_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_knee_fk_offset/horse_ac_rt_back_knee_fk/horse_ac_rt_back_ankle_fk_offset/horse_ac_rt_back_ankle_fk/horse_ac_rt_back_toe_fk_offset/horse_ac_rt_back_toe_fk/horse_sk_rt_back_toe_orientFK_offset/horse_sk_rt_back_toe_orientFK
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_knee_fk_offset/horse_ac_rt_back_knee_fk/horse_ac_rt_back_leg_pacon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_knee_fk_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_leg_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_leg_offset/horse_ac_rt_back_leg
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_leg_offset/horse_ac_rt_back_leg/horse_ac_rt_back_footIK_legspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_leg_offset/horse_ac_rt_back_leg/horse_rt_back_stretch_knee_loc
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_leg_settings_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_leg_settings_offset/horse_ac_rt_back_leg_settings
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_leg_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_legPole_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_legPole_offset/horse_ac_rt_back_legPole
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_legPole_offset/horse_ac_rt_back_legPole/horse_rt_back_leg_pole_cluster
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_legPole_offset/horse_ac_rt_back_legPole/horse_rt_back_stretch_ankle_loc
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_back_legPole_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_elbow_fk_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_elbow_fk_offset/horse_ac_rt_front_elbow_fk
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_elbow_fk_offset/horse_ac_rt_front_elbow_fk/horse_ac_rt_front_ankle_fk_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_elbow_fk_offset/horse_ac_rt_front_elbow_fk/horse_ac_rt_front_ankle_fk_offset/horse_ac_rt_front_ankle_fk
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_elbow_fk_offset/horse_ac_rt_front_elbow_fk/horse_ac_rt_front_ankle_fk_offset/horse_ac_rt_front_ankle_fk/horse_ac_rt_front_toe_fk_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_elbow_fk_offset/horse_ac_rt_front_elbow_fk/horse_ac_rt_front_ankle_fk_offset/horse_ac_rt_front_ankle_fk/horse_ac_rt_front_toe_fk_offset/horse_ac_rt_front_toe_fk
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_elbow_fk_offset/horse_ac_rt_front_elbow_fk/horse_ac_rt_front_ankle_fk_offset/horse_ac_rt_front_ankle_fk/horse_ac_rt_front_toe_fk_offset/horse_ac_rt_front_toe_fk/horse_ac_rt_front_hoof_fk_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_elbow_fk_offset/horse_ac_rt_front_elbow_fk/horse_ac_rt_front_ankle_fk_offset/horse_ac_rt_front_ankle_fk/horse_ac_rt_front_toe_fk_offset/horse_ac_rt_front_toe_fk/horse_ac_rt_front_hoof_fk_offset/horse_ac_rt_front_hoof_fk
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_elbow_fk_offset/horse_ac_rt_front_elbow_fk/horse_ac_rt_front_ankle_fk_offset/horse_ac_rt_front_ankle_fk/horse_ac_rt_front_toe_fk_offset/horse_ac_rt_front_toe_fk/horse_sk_rt_front_toe_orientFK_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_elbow_fk_offset/horse_ac_rt_front_elbow_fk/horse_ac_rt_front_ankle_fk_offset/horse_ac_rt_front_ankle_fk/horse_ac_rt_front_toe_fk_offset/horse_ac_rt_front_toe_fk/horse_sk_rt_front_toe_orientFK_offset/horse_sk_rt_front_toe_orientFK
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_elbow_fk_offset/horse_ac_rt_front_elbow_fk/horse_ac_rt_front_leg_pacon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_elbow_fk_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_ac_rt_front_hoof_ik_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_ac_rt_front_hoof_ik_offset/horse_ac_rt_front_hoof_ik
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_ac_rt_front_legPole_footspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_rt_front_ball_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_rt_front_ball_pivot/horse_rt_front_front_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_rt_front_ball_pivot/horse_rt_front_front_pivot/horse_rt_front_bankext_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_rt_front_ball_pivot/horse_rt_front_front_pivot/horse_rt_front_bankext_pivot/horse_rt_front_bankint_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_rt_front_ball_pivot/horse_rt_front_front_pivot/horse_rt_front_bankext_pivot/horse_rt_front_bankint_pivot/horse_ac_rt_front_hoof_ik_connect_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_rt_front_ball_pivot/horse_rt_front_front_pivot/horse_rt_front_bankext_pivot/horse_rt_front_bankint_pivot/horse_ac_rt_front_hoof_ik_connect_offset/horse_ac_rt_front_hoof_ik_connect
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_rt_front_ball_pivot/horse_rt_front_front_pivot/horse_rt_front_bankext_pivot/horse_rt_front_bankint_pivot/horse_ac_rt_front_hoof_ik_connect_offset/horse_ac_rt_front_hoof_ik_connect/horse_rt_front_hoof_ikhandle
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_rt_front_ball_pivot/horse_rt_front_front_pivot/horse_rt_front_bankext_pivot/horse_rt_front_bankint_pivot/horse_ac_rt_front_hoof_ik_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_rt_front_ball_pivot/horse_rt_front_front_pivot/horse_rt_front_bankext_pivot/horse_rt_front_bankint_pivot/horse_rt_front_hoof_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_rt_front_ball_pivot/horse_rt_front_front_pivot/horse_rt_front_bankext_pivot/horse_rt_front_bankint_pivot/horse_rt_front_hoof_pivot/horse_rt_front_toe_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_rt_front_ball_pivot/horse_rt_front_front_pivot/horse_rt_front_bankext_pivot/horse_rt_front_bankint_pivot/horse_rt_front_hoof_pivot/horse_rt_front_toe_pcon/horse_rt_front_toe_ikhandle
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_rt_front_ball_pivot/horse_rt_front_front_pivot/horse_rt_front_bankext_pivot/horse_rt_front_bankint_pivot/horse_rt_front_stretch_toe_loc
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_rt_front_ball_pivot/horse_rt_front_front_pivot/horse_rt_front_bankext_pivot/horse_rt_front_bankint_pivot/horse_sk_rt_front_toe_orientIK_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_offset/horse_ac_rt_front_footIK/horse_rt_front_ball_pivot/horse_rt_front_front_pivot/horse_rt_front_bankext_pivot/horse_rt_front_bankint_pivot/horse_sk_rt_front_toe_orientIK_offset/horse_sk_rt_front_toe_orientIK
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_footIK_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_leg_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_leg_offset/horse_ac_rt_front_leg
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_leg_offset/horse_ac_rt_front_leg/horse_ac_rt_front_footIK_legspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_leg_offset/horse_ac_rt_front_leg/horse_rt_front_stretch_elbow_loc
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_leg_settings_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_leg_settings_offset/horse_ac_rt_front_leg_settings
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_leg_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_legPole_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_legPole_offset/horse_ac_rt_front_legPole
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_legPole_offset/horse_ac_rt_front_legPole/horse_rt_front_leg_pole_clusterCluster
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_legPole_offset/horse_ac_rt_front_legPole/horse_rt_front_stretch_knee_loc
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_front_legPole_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_hip_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_hip_offset/horse_ac_rt_hip_offset_space
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_hip_offset/horse_ac_rt_hip_offset_space/horse_ac_rt_hip
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_hip_offset/horse_ac_rt_hip_offset_space/horse_ac_rt_hip/horse_ac_rt_back_knee_fk_hipspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_hip_offset/horse_ac_rt_hip_offset_space/horse_ac_rt_hip/horse_ac_rt_back_knee_fk_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_hip_offset/horse_ac_rt_hip_offset_space/horse_ac_rt_hip/horse_ac_rt_back_leg_hipspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_hip_offset/horse_ac_rt_hip_offset_space/horse_ac_rt_hip/horse_ac_rt_back_leg_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_hip_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_shoulder_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_shoulder_offset/horse_ac_rt_shoulder
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_shoulder_offset/horse_ac_rt_shoulder/horse_ac_rt_shoulder_point_offset
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_shoulder_offset/horse_ac_rt_shoulder/horse_ac_rt_shoulder_point_offset/horse_ac_rt_shoulder_point
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_shoulder_offset/horse_ac_rt_shoulder/horse_ac_rt_shoulder_point_offset/horse_ac_rt_shoulder_point/horse_ac_rt_front_elbow_fk_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_shoulder_offset/horse_ac_rt_shoulder/horse_ac_rt_shoulder_point_offset/horse_ac_rt_shoulder_point/horse_ac_rt_front_elbow_fk_shoulderspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_shoulder_offset/horse_ac_rt_shoulder/horse_ac_rt_shoulder_point_offset/horse_ac_rt_shoulder_point/horse_ac_rt_front_leg_pcon
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_shoulder_offset/horse_ac_rt_shoulder/horse_ac_rt_shoulder_point_offset/horse_ac_rt_shoulder_point/horse_ac_rt_front_leg_shoulderpointspace
+        weight: 1
+      - path: horse/horse_controls/horse_ac_cn_base_offset/horse_ac_cn_base/horse_ac_cn_central_offset/horse_ac_cn_central/horse_ac_rt_shoulder_worldspace
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_extremA_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_extremA_ctrl_rivet/horse_cn_extremA_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_extremA_ctrl_rivet/horse_cn_extremA_ctrl_offset/horse_cn_extremA_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_extremB_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_extremB_ctrl_rivet/horse_cn_extremB_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_extremB_ctrl_rivet/horse_cn_extremB_ctrl_offset/horse_cn_extremB_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point1_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point1_ctrl_rivet/horse_cn_lowlip_point1_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point1_ctrl_rivet/horse_cn_lowlip_point1_ctrl_offset/horse_cn_lowlip_point1_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point2_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point2_ctrl_rivet/horse_cn_lowlip_point2_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point2_ctrl_rivet/horse_cn_lowlip_point2_ctrl_offset/horse_cn_lowlip_point2_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point3_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point3_ctrl_rivet/horse_cn_lowlip_point3_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point3_ctrl_rivet/horse_cn_lowlip_point3_ctrl_offset/horse_cn_lowlip_point3_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point4_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point4_ctrl_rivet/horse_cn_lowlip_point4_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point4_ctrl_rivet/horse_cn_lowlip_point4_ctrl_offset/horse_cn_lowlip_point4_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point5_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point5_ctrl_rivet/horse_cn_lowlip_point5_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point5_ctrl_rivet/horse_cn_lowlip_point5_ctrl_offset/horse_cn_lowlip_point5_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point6_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point6_ctrl_rivet/horse_cn_lowlip_point6_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point6_ctrl_rivet/horse_cn_lowlip_point6_ctrl_offset/horse_cn_lowlip_point6_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point7_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point7_ctrl_rivet/horse_cn_lowlip_point7_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point7_ctrl_rivet/horse_cn_lowlip_point7_ctrl_offset/horse_cn_lowlip_point7_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point8_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point8_ctrl_rivet/horse_cn_lowlip_point8_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point8_ctrl_rivet/horse_cn_lowlip_point8_ctrl_offset/horse_cn_lowlip_point8_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point9_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point9_ctrl_rivet/horse_cn_lowlip_point9_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_lowlip_point9_ctrl_rivet/horse_cn_lowlip_point9_ctrl_offset/horse_cn_lowlip_point9_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point1_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point1_ctrl_rivet/horse_cn_uplip_point1_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point1_ctrl_rivet/horse_cn_uplip_point1_ctrl_offset/horse_cn_uplip_point1_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point2_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point2_ctrl_rivet/horse_cn_uplip_point2_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point2_ctrl_rivet/horse_cn_uplip_point2_ctrl_offset/horse_cn_uplip_point2_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point3_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point3_ctrl_rivet/horse_cn_uplip_point3_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point3_ctrl_rivet/horse_cn_uplip_point3_ctrl_offset/horse_cn_uplip_point3_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point4_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point4_ctrl_rivet/horse_cn_uplip_point4_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point4_ctrl_rivet/horse_cn_uplip_point4_ctrl_offset/horse_cn_uplip_point4_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point5_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point5_ctrl_rivet/horse_cn_uplip_point5_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point5_ctrl_rivet/horse_cn_uplip_point5_ctrl_offset/horse_cn_uplip_point5_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point6_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point6_ctrl_rivet/horse_cn_uplip_point6_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point6_ctrl_rivet/horse_cn_uplip_point6_ctrl_offset/horse_cn_uplip_point6_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point7_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point7_ctrl_rivet/horse_cn_uplip_point7_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point7_ctrl_rivet/horse_cn_uplip_point7_ctrl_offset/horse_cn_uplip_point7_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point8_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point8_ctrl_rivet/horse_cn_uplip_point8_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point8_ctrl_rivet/horse_cn_uplip_point8_ctrl_offset/horse_cn_uplip_point8_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point9_ctrl_rivet
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point9_ctrl_rivet/horse_cn_uplip_point9_ctrl_offset
+        weight: 1
+      - path: horse/horse_controls/horse_facial_sculpts/horse_mouth_sculpts/horse_cn_uplip_point9_ctrl_rivet/horse_cn_uplip_point9_ctrl_offset/horse_cn_uplip_point9_ctrl_pivot
+        weight: 1
+      - path: horse/horse_controls/horse_linePole_curves_grp
+        weight: 1
+      - path: horse/horse_controls/horse_linePole_curves_grp/horse_lf_back_leg_linePole_curve
+        weight: 1
+      - path: horse/horse_controls/horse_linePole_curves_grp/horse_lf_front_leg_linePole_curve
+        weight: 1
+      - path: horse/horse_controls/horse_linePole_curves_grp/horse_rt_back_leg_linePole_curve
+        weight: 1
+      - path: horse/horse_controls/horse_linePole_curves_grp/horse_rt_front_leg_linePole_curve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_geometry
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_spine_rig
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_spine_rig/horse_cn_middleSpineIK1_cluster
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_spine_rig/horse_cn_middleSpineIK2_cluster
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_spine_rig/horse_cn_spine_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_spine_rig/horse_cn_spine_ikcurve_bendsmorpho
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_spine_rig/horse_cn_spine_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle1/horse_cn_tail_ribbon_aimloc1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle2/horse_cn_tail_ribbon_aimloc2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle3/horse_cn_tail_ribbon_aimloc3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle4
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle4/horse_cn_tail_ribbon_aimloc4
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle5
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle5/horse_cn_tail_ribbon_aimloc5
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle6
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle6/horse_cn_tail_ribbon_aimloc6
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle7
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle7/horse_cn_tail_ribbon_aimloc7
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle8
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle8/horse_cn_tail_ribbon_aimloc8
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle9
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle9/horse_cn_tail_ribbon_aimloc9
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle10
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle10/horse_cn_tail_ribbon_aimloc10
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle11
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_follicles_grp/horse_cn_tail_ribbon_follicle11/horse_cn_tail_ribbon_aimloc11
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_cn_tail_ribbon
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon1_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon1_offset/horse_sk_cn_tail_ribbon1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon2_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon2_offset/horse_sk_cn_tail_ribbon2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon3_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon3_offset/horse_sk_cn_tail_ribbon3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon4_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon4_offset/horse_sk_cn_tail_ribbon4
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon5_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon5_offset/horse_sk_cn_tail_ribbon5
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon6_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon6_offset/horse_sk_cn_tail_ribbon6
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon7_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon7_offset/horse_sk_cn_tail_ribbon7
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon8_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon8_offset/horse_sk_cn_tail_ribbon8
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon9_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon9_offset/horse_sk_cn_tail_ribbon9
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon10_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon10_offset/horse_sk_cn_tail_ribbon10
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon11_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon_grp/horse_sk_cn_tail_ribbon11_offset/horse_sk_cn_tail_ribbon11
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_leg_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_lowleg_rollsystem
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_lowleg_rollsystem/horse_sk_lf_back_foot_aux1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_lowleg_rollsystem/horse_sk_lf_back_foot_aux1/horse_sk_lf_back_foot_aux2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_lowleg_rollsystem/horse_sk_lf_back_foot_aux1/horse_sk_lf_back_foot_aux2/horse_sk_lf_back_foot_aux3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_lowleg_rollsystem/horse_sk_lf_back_foot_aux_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_lowleg_rollsystem/horse_sk_lf_back_lowleg_twist_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_lowleg_rollsystem/horse_sk_lf_back_toe_nonroll
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_lowleg_rollsystem/horse_sk_lf_back_toe_nonroll/horse_sk_lf_back_toe_nonrollend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_lowleg_rollsystem/horse_sk_lf_back_toe_nonroll_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_nonroll
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_nonroll/horse_sk_lf_back_upleg_nonrollend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_nonroll_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1/horse_sk_lf_back_upleg_twist2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1/horse_sk_lf_back_upleg_twist2/horse_sk_lf_back_upleg_twist3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1/horse_sk_lf_back_upleg_twist2/horse_sk_lf_back_upleg_twist3/horse_sk_lf_back_upleg_twist4
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1/horse_sk_lf_back_upleg_twist2/horse_sk_lf_back_upleg_twist3/horse_sk_lf_back_upleg_twist4/horse_sk_lf_back_upleg_twist5
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1/horse_sk_lf_back_upleg_twist2/horse_sk_lf_back_upleg_twist3/horse_sk_lf_back_upleg_twist4/horse_sk_lf_back_upleg_twist5/horse_sk_lf_back_upleg_twist6
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1/horse_sk_lf_back_upleg_twist2/horse_sk_lf_back_upleg_twist3/horse_sk_lf_back_upleg_twist4/horse_sk_lf_back_upleg_twist5/horse_sk_lf_back_upleg_twist6/horse_sk_lf_back_upleg_twist7
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1/horse_sk_lf_back_upleg_twist2/horse_sk_lf_back_upleg_twist3/horse_sk_lf_back_upleg_twist4/horse_sk_lf_back_upleg_twist5/horse_sk_lf_back_upleg_twist6/horse_sk_lf_back_upleg_twist7/horse_sk_lf_back_upleg_twist8
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1/horse_sk_lf_back_upleg_twist2/horse_sk_lf_back_upleg_twist3/horse_sk_lf_back_upleg_twist4/horse_sk_lf_back_upleg_twist5/horse_sk_lf_back_upleg_twist6/horse_sk_lf_back_upleg_twist7/horse_sk_lf_back_upleg_twist8/horse_sk_lf_back_upleg_twist9
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1/horse_sk_lf_back_upleg_twist2/horse_sk_lf_back_upleg_twist3/horse_sk_lf_back_upleg_twist4/horse_sk_lf_back_upleg_twist5/horse_sk_lf_back_upleg_twist6/horse_sk_lf_back_upleg_twist7/horse_sk_lf_back_upleg_twist8/horse_sk_lf_back_upleg_twist9/horse_sk_lf_back_lowleg_twist1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1/horse_sk_lf_back_upleg_twist2/horse_sk_lf_back_upleg_twist3/horse_sk_lf_back_upleg_twist4/horse_sk_lf_back_upleg_twist5/horse_sk_lf_back_upleg_twist6/horse_sk_lf_back_upleg_twist7/horse_sk_lf_back_upleg_twist8/horse_sk_lf_back_upleg_twist9/horse_sk_lf_back_lowleg_twist1/horse_sk_lf_back_lowleg_twist2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1/horse_sk_lf_back_upleg_twist2/horse_sk_lf_back_upleg_twist3/horse_sk_lf_back_upleg_twist4/horse_sk_lf_back_upleg_twist5/horse_sk_lf_back_upleg_twist6/horse_sk_lf_back_upleg_twist7/horse_sk_lf_back_upleg_twist8/horse_sk_lf_back_upleg_twist9/horse_sk_lf_back_lowleg_twist1/horse_sk_lf_back_lowleg_twist2/horse_sk_lf_back_lowleg_twist3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1/horse_sk_lf_back_upleg_twist2/horse_sk_lf_back_upleg_twist3/horse_sk_lf_back_upleg_twist4/horse_sk_lf_back_upleg_twist5/horse_sk_lf_back_upleg_twist6/horse_sk_lf_back_upleg_twist7/horse_sk_lf_back_upleg_twist8/horse_sk_lf_back_upleg_twist9/horse_sk_lf_back_lowleg_twist1/horse_sk_lf_back_lowleg_twist2/horse_sk_lf_back_lowleg_twist3/horse_sk_lf_back_lowleg_twist4
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1/horse_sk_lf_back_upleg_twist2/horse_sk_lf_back_upleg_twist3/horse_sk_lf_back_upleg_twist4/horse_sk_lf_back_upleg_twist5/horse_sk_lf_back_upleg_twist6/horse_sk_lf_back_upleg_twist7/horse_sk_lf_back_upleg_twist8/horse_sk_lf_back_upleg_twist9/horse_sk_lf_back_lowleg_twist1/horse_sk_lf_back_lowleg_twist2/horse_sk_lf_back_lowleg_twist3/horse_sk_lf_back_lowleg_twist4/horse_sk_lf_back_lowleg_twist5
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1/horse_sk_lf_back_upleg_twist2/horse_sk_lf_back_upleg_twist3/horse_sk_lf_back_upleg_twist4/horse_sk_lf_back_upleg_twist5/horse_sk_lf_back_upleg_twist6/horse_sk_lf_back_upleg_twist7/horse_sk_lf_back_upleg_twist8/horse_sk_lf_back_upleg_twist9/horse_sk_lf_back_lowleg_twist1/horse_sk_lf_back_lowleg_twist2/horse_sk_lf_back_lowleg_twist3/horse_sk_lf_back_lowleg_twist4/horse_sk_lf_back_lowleg_twist5/horse_sk_lf_back_lowleg_twist6
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1/horse_sk_lf_back_upleg_twist2/horse_sk_lf_back_upleg_twist3/horse_sk_lf_back_upleg_twist4/horse_sk_lf_back_upleg_twist5/horse_sk_lf_back_upleg_twist6/horse_sk_lf_back_upleg_twist7/horse_sk_lf_back_upleg_twist8/horse_sk_lf_back_upleg_twist9/horse_sk_lf_back_lowleg_twist1/horse_sk_lf_back_lowleg_twist2/horse_sk_lf_back_lowleg_twist3/horse_sk_lf_back_lowleg_twist4/horse_sk_lf_back_lowleg_twist5/horse_sk_lf_back_lowleg_twist6/horse_sk_lf_back_lowleg_twist7
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist1/horse_sk_lf_back_upleg_twist2/horse_sk_lf_back_upleg_twist3/horse_sk_lf_back_upleg_twist4/horse_sk_lf_back_upleg_twist5/horse_sk_lf_back_upleg_twist6/horse_sk_lf_back_upleg_twist7/horse_sk_lf_back_upleg_twist8/horse_sk_lf_back_upleg_twist9/horse_sk_lf_back_lowleg_twist1/horse_sk_lf_back_lowleg_twist2/horse_sk_lf_back_lowleg_twist3/horse_sk_lf_back_lowleg_twist4/horse_sk_lf_back_lowleg_twist5/horse_sk_lf_back_lowleg_twist6/horse_sk_lf_back_lowleg_twist7/horse_sk_lf_back_lowleg_twist8
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_lf_back_upleg_rollsystem/horse_sk_lf_back_upleg_twist_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_sk_lf_back_lowleg_twist_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_back_leg_rig/horse_sk_lf_back_upleg_twist_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_leg_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_lowleg_rollsystem
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_lowleg_rollsystem/horse_sk_lf_front_foot_aux1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_lowleg_rollsystem/horse_sk_lf_front_foot_aux1/horse_sk_lf_front_foot_aux2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_lowleg_rollsystem/horse_sk_lf_front_foot_aux1/horse_sk_lf_front_foot_aux2/horse_sk_lf_front_foot_aux3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_lowleg_rollsystem/horse_sk_lf_front_foot_aux_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_lowleg_rollsystem/horse_sk_lf_front_lowleg_twist_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_lowleg_rollsystem/horse_sk_lf_front_toe_nonroll
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_lowleg_rollsystem/horse_sk_lf_front_toe_nonroll/horse_sk_lf_front_toe_nonrollend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_lowleg_rollsystem/horse_sk_lf_front_toe_nonroll_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_nonroll
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_nonroll/horse_sk_lf_front_upleg_nonrollend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_nonroll_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist1/horse_sk_lf_front_upleg_twist2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist1/horse_sk_lf_front_upleg_twist2/horse_sk_lf_front_upleg_twist3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist1/horse_sk_lf_front_upleg_twist2/horse_sk_lf_front_upleg_twist3/horse_sk_lf_front_upleg_twist4
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist1/horse_sk_lf_front_upleg_twist2/horse_sk_lf_front_upleg_twist3/horse_sk_lf_front_upleg_twist4/horse_sk_lf_front_upleg_twist5
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist1/horse_sk_lf_front_upleg_twist2/horse_sk_lf_front_upleg_twist3/horse_sk_lf_front_upleg_twist4/horse_sk_lf_front_upleg_twist5/horse_sk_lf_front_upleg_twist6
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist1/horse_sk_lf_front_upleg_twist2/horse_sk_lf_front_upleg_twist3/horse_sk_lf_front_upleg_twist4/horse_sk_lf_front_upleg_twist5/horse_sk_lf_front_upleg_twist6/horse_sk_lf_front_upleg_twist7
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist1/horse_sk_lf_front_upleg_twist2/horse_sk_lf_front_upleg_twist3/horse_sk_lf_front_upleg_twist4/horse_sk_lf_front_upleg_twist5/horse_sk_lf_front_upleg_twist6/horse_sk_lf_front_upleg_twist7/horse_sk_lf_front_upleg_twist8
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist1/horse_sk_lf_front_upleg_twist2/horse_sk_lf_front_upleg_twist3/horse_sk_lf_front_upleg_twist4/horse_sk_lf_front_upleg_twist5/horse_sk_lf_front_upleg_twist6/horse_sk_lf_front_upleg_twist7/horse_sk_lf_front_upleg_twist8/horse_sk_lf_front_upleg_twist9
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist1/horse_sk_lf_front_upleg_twist2/horse_sk_lf_front_upleg_twist3/horse_sk_lf_front_upleg_twist4/horse_sk_lf_front_upleg_twist5/horse_sk_lf_front_upleg_twist6/horse_sk_lf_front_upleg_twist7/horse_sk_lf_front_upleg_twist8/horse_sk_lf_front_upleg_twist9/horse_sk_lf_front_lowleg_twist1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist1/horse_sk_lf_front_upleg_twist2/horse_sk_lf_front_upleg_twist3/horse_sk_lf_front_upleg_twist4/horse_sk_lf_front_upleg_twist5/horse_sk_lf_front_upleg_twist6/horse_sk_lf_front_upleg_twist7/horse_sk_lf_front_upleg_twist8/horse_sk_lf_front_upleg_twist9/horse_sk_lf_front_lowleg_twist1/horse_sk_lf_front_lowleg_twist2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist1/horse_sk_lf_front_upleg_twist2/horse_sk_lf_front_upleg_twist3/horse_sk_lf_front_upleg_twist4/horse_sk_lf_front_upleg_twist5/horse_sk_lf_front_upleg_twist6/horse_sk_lf_front_upleg_twist7/horse_sk_lf_front_upleg_twist8/horse_sk_lf_front_upleg_twist9/horse_sk_lf_front_lowleg_twist1/horse_sk_lf_front_lowleg_twist2/horse_sk_lf_front_lowleg_twist3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist1/horse_sk_lf_front_upleg_twist2/horse_sk_lf_front_upleg_twist3/horse_sk_lf_front_upleg_twist4/horse_sk_lf_front_upleg_twist5/horse_sk_lf_front_upleg_twist6/horse_sk_lf_front_upleg_twist7/horse_sk_lf_front_upleg_twist8/horse_sk_lf_front_upleg_twist9/horse_sk_lf_front_lowleg_twist1/horse_sk_lf_front_lowleg_twist2/horse_sk_lf_front_lowleg_twist3/horse_sk_lf_front_lowleg_twist4
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist1/horse_sk_lf_front_upleg_twist2/horse_sk_lf_front_upleg_twist3/horse_sk_lf_front_upleg_twist4/horse_sk_lf_front_upleg_twist5/horse_sk_lf_front_upleg_twist6/horse_sk_lf_front_upleg_twist7/horse_sk_lf_front_upleg_twist8/horse_sk_lf_front_upleg_twist9/horse_sk_lf_front_lowleg_twist1/horse_sk_lf_front_lowleg_twist2/horse_sk_lf_front_lowleg_twist3/horse_sk_lf_front_lowleg_twist4/horse_sk_lf_front_lowleg_twist5
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist1/horse_sk_lf_front_upleg_twist2/horse_sk_lf_front_upleg_twist3/horse_sk_lf_front_upleg_twist4/horse_sk_lf_front_upleg_twist5/horse_sk_lf_front_upleg_twist6/horse_sk_lf_front_upleg_twist7/horse_sk_lf_front_upleg_twist8/horse_sk_lf_front_upleg_twist9/horse_sk_lf_front_lowleg_twist1/horse_sk_lf_front_lowleg_twist2/horse_sk_lf_front_lowleg_twist3/horse_sk_lf_front_lowleg_twist4/horse_sk_lf_front_lowleg_twist5/horse_sk_lf_front_lowleg_twist6
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist1/horse_sk_lf_front_upleg_twist2/horse_sk_lf_front_upleg_twist3/horse_sk_lf_front_upleg_twist4/horse_sk_lf_front_upleg_twist5/horse_sk_lf_front_upleg_twist6/horse_sk_lf_front_upleg_twist7/horse_sk_lf_front_upleg_twist8/horse_sk_lf_front_upleg_twist9/horse_sk_lf_front_lowleg_twist1/horse_sk_lf_front_lowleg_twist2/horse_sk_lf_front_lowleg_twist3/horse_sk_lf_front_lowleg_twist4/horse_sk_lf_front_lowleg_twist5/horse_sk_lf_front_lowleg_twist6/horse_sk_lf_front_lowleg_twist7
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_lf_front_upleg_rollsystem/horse_sk_lf_front_upleg_twist_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_sk_lf_front_lowleg_twist_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_lf_front_leg_rig/horse_sk_lf_front_upleg_twist_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_leg_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_lowleg_rollsystem
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_lowleg_rollsystem/horse_sk_lf_back_foot_aux1
+          1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_lowleg_rollsystem/horse_sk_lf_back_foot_aux1
+          1/horse_sk_lf_back_foot_aux2 1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_lowleg_rollsystem/horse_sk_lf_back_foot_aux1
+          1/horse_sk_lf_back_foot_aux2 1/horse_sk_lf_back_foot_aux3 1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_lowleg_rollsystem/horse_sk_rt_back_foot_aux_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_lowleg_rollsystem/horse_sk_rt_back_lowleg_twist_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_lowleg_rollsystem/horse_sk_rt_back_toe_nonroll
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_lowleg_rollsystem/horse_sk_rt_back_toe_nonroll/horse_sk_rt_back_toe_nonrollend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_lowleg_rollsystem/horse_sk_rt_back_toe_nonroll_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_nonroll
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_nonroll/horse_sk_rt_back_upleg_nonrollend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_nonroll_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1/horse_sk_rt_back_upleg_twist2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1/horse_sk_rt_back_upleg_twist2/horse_sk_rt_back_upleg_twist3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1/horse_sk_rt_back_upleg_twist2/horse_sk_rt_back_upleg_twist3/horse_sk_rt_back_upleg_twist4
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1/horse_sk_rt_back_upleg_twist2/horse_sk_rt_back_upleg_twist3/horse_sk_rt_back_upleg_twist4/horse_sk_rt_back_upleg_twist5
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1/horse_sk_rt_back_upleg_twist2/horse_sk_rt_back_upleg_twist3/horse_sk_rt_back_upleg_twist4/horse_sk_rt_back_upleg_twist5/horse_sk_rt_back_upleg_twist6
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1/horse_sk_rt_back_upleg_twist2/horse_sk_rt_back_upleg_twist3/horse_sk_rt_back_upleg_twist4/horse_sk_rt_back_upleg_twist5/horse_sk_rt_back_upleg_twist6/horse_sk_rt_back_upleg_twist7
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1/horse_sk_rt_back_upleg_twist2/horse_sk_rt_back_upleg_twist3/horse_sk_rt_back_upleg_twist4/horse_sk_rt_back_upleg_twist5/horse_sk_rt_back_upleg_twist6/horse_sk_rt_back_upleg_twist7/horse_sk_rt_back_upleg_twist8
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1/horse_sk_rt_back_upleg_twist2/horse_sk_rt_back_upleg_twist3/horse_sk_rt_back_upleg_twist4/horse_sk_rt_back_upleg_twist5/horse_sk_rt_back_upleg_twist6/horse_sk_rt_back_upleg_twist7/horse_sk_rt_back_upleg_twist8/horse_sk_rt_back_upleg_twist9
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1/horse_sk_rt_back_upleg_twist2/horse_sk_rt_back_upleg_twist3/horse_sk_rt_back_upleg_twist4/horse_sk_rt_back_upleg_twist5/horse_sk_rt_back_upleg_twist6/horse_sk_rt_back_upleg_twist7/horse_sk_rt_back_upleg_twist8/horse_sk_rt_back_upleg_twist9/horse_sk_rt_back_lowleg_twist1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1/horse_sk_rt_back_upleg_twist2/horse_sk_rt_back_upleg_twist3/horse_sk_rt_back_upleg_twist4/horse_sk_rt_back_upleg_twist5/horse_sk_rt_back_upleg_twist6/horse_sk_rt_back_upleg_twist7/horse_sk_rt_back_upleg_twist8/horse_sk_rt_back_upleg_twist9/horse_sk_rt_back_lowleg_twist1/horse_sk_rt_back_lowleg_twist2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1/horse_sk_rt_back_upleg_twist2/horse_sk_rt_back_upleg_twist3/horse_sk_rt_back_upleg_twist4/horse_sk_rt_back_upleg_twist5/horse_sk_rt_back_upleg_twist6/horse_sk_rt_back_upleg_twist7/horse_sk_rt_back_upleg_twist8/horse_sk_rt_back_upleg_twist9/horse_sk_rt_back_lowleg_twist1/horse_sk_rt_back_lowleg_twist2/horse_sk_rt_back_lowleg_twist3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1/horse_sk_rt_back_upleg_twist2/horse_sk_rt_back_upleg_twist3/horse_sk_rt_back_upleg_twist4/horse_sk_rt_back_upleg_twist5/horse_sk_rt_back_upleg_twist6/horse_sk_rt_back_upleg_twist7/horse_sk_rt_back_upleg_twist8/horse_sk_rt_back_upleg_twist9/horse_sk_rt_back_lowleg_twist1/horse_sk_rt_back_lowleg_twist2/horse_sk_rt_back_lowleg_twist3/horse_sk_rt_back_lowleg_twist4
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1/horse_sk_rt_back_upleg_twist2/horse_sk_rt_back_upleg_twist3/horse_sk_rt_back_upleg_twist4/horse_sk_rt_back_upleg_twist5/horse_sk_rt_back_upleg_twist6/horse_sk_rt_back_upleg_twist7/horse_sk_rt_back_upleg_twist8/horse_sk_rt_back_upleg_twist9/horse_sk_rt_back_lowleg_twist1/horse_sk_rt_back_lowleg_twist2/horse_sk_rt_back_lowleg_twist3/horse_sk_rt_back_lowleg_twist4/horse_sk_rt_back_lowleg_twist5
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1/horse_sk_rt_back_upleg_twist2/horse_sk_rt_back_upleg_twist3/horse_sk_rt_back_upleg_twist4/horse_sk_rt_back_upleg_twist5/horse_sk_rt_back_upleg_twist6/horse_sk_rt_back_upleg_twist7/horse_sk_rt_back_upleg_twist8/horse_sk_rt_back_upleg_twist9/horse_sk_rt_back_lowleg_twist1/horse_sk_rt_back_lowleg_twist2/horse_sk_rt_back_lowleg_twist3/horse_sk_rt_back_lowleg_twist4/horse_sk_rt_back_lowleg_twist5/horse_sk_rt_back_lowleg_twist6
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1/horse_sk_rt_back_upleg_twist2/horse_sk_rt_back_upleg_twist3/horse_sk_rt_back_upleg_twist4/horse_sk_rt_back_upleg_twist5/horse_sk_rt_back_upleg_twist6/horse_sk_rt_back_upleg_twist7/horse_sk_rt_back_upleg_twist8/horse_sk_rt_back_upleg_twist9/horse_sk_rt_back_lowleg_twist1/horse_sk_rt_back_lowleg_twist2/horse_sk_rt_back_lowleg_twist3/horse_sk_rt_back_lowleg_twist4/horse_sk_rt_back_lowleg_twist5/horse_sk_rt_back_lowleg_twist6/horse_sk_rt_back_lowleg_twist7
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist1/horse_sk_rt_back_upleg_twist2/horse_sk_rt_back_upleg_twist3/horse_sk_rt_back_upleg_twist4/horse_sk_rt_back_upleg_twist5/horse_sk_rt_back_upleg_twist6/horse_sk_rt_back_upleg_twist7/horse_sk_rt_back_upleg_twist8/horse_sk_rt_back_upleg_twist9/horse_sk_rt_back_lowleg_twist1/horse_sk_rt_back_lowleg_twist2/horse_sk_rt_back_lowleg_twist3/horse_sk_rt_back_lowleg_twist4/horse_sk_rt_back_lowleg_twist5/horse_sk_rt_back_lowleg_twist6/horse_sk_rt_back_lowleg_twist7/horse_sk_rt_back_lowleg_twist8
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_rt_back_upleg_rollsystem/horse_sk_rt_back_upleg_twist_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_sk_rt_back_lowleg_twist_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_back_leg_rig/horse_sk_rt_back_upleg_twist_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_leg_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_lowleg_rollsystem
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_lowleg_rollsystem/horse_sk_rt_front_foot_aux1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_lowleg_rollsystem/horse_sk_rt_front_foot_aux1/horse_sk_rt_front_foot_aux2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_lowleg_rollsystem/horse_sk_rt_front_foot_aux1/horse_sk_rt_front_foot_aux2/horse_sk_rt_front_foot_aux3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_lowleg_rollsystem/horse_sk_rt_front_foot_aux_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_lowleg_rollsystem/horse_sk_rt_front_lowleg_twist_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_lowleg_rollsystem/horse_sk_rt_front_toe_nonroll
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_lowleg_rollsystem/horse_sk_rt_front_toe_nonroll/horse_sk_rt_front_toe_nonrollend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_lowleg_rollsystem/horse_sk_rt_front_toe_nonroll_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_nonroll
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_nonroll/horse_sk_lf_front_upleg_nonrollend
+          1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_nonroll_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist1/horse_sk_rt_front_upleg_twist2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist1/horse_sk_rt_front_upleg_twist2/horse_sk_rt_front_upleg_twist3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist1/horse_sk_rt_front_upleg_twist2/horse_sk_rt_front_upleg_twist3/horse_sk_rt_front_upleg_twist4
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist1/horse_sk_rt_front_upleg_twist2/horse_sk_rt_front_upleg_twist3/horse_sk_rt_front_upleg_twist4/horse_sk_rt_front_upleg_twist5
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist1/horse_sk_rt_front_upleg_twist2/horse_sk_rt_front_upleg_twist3/horse_sk_rt_front_upleg_twist4/horse_sk_rt_front_upleg_twist5/horse_sk_rt_front_upleg_twist6
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist1/horse_sk_rt_front_upleg_twist2/horse_sk_rt_front_upleg_twist3/horse_sk_rt_front_upleg_twist4/horse_sk_rt_front_upleg_twist5/horse_sk_rt_front_upleg_twist6/horse_sk_rt_front_upleg_twist7
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist1/horse_sk_rt_front_upleg_twist2/horse_sk_rt_front_upleg_twist3/horse_sk_rt_front_upleg_twist4/horse_sk_rt_front_upleg_twist5/horse_sk_rt_front_upleg_twist6/horse_sk_rt_front_upleg_twist7/horse_sk_rt_front_upleg_twist8
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist1/horse_sk_rt_front_upleg_twist2/horse_sk_rt_front_upleg_twist3/horse_sk_rt_front_upleg_twist4/horse_sk_rt_front_upleg_twist5/horse_sk_rt_front_upleg_twist6/horse_sk_rt_front_upleg_twist7/horse_sk_rt_front_upleg_twist8/horse_sk_rt_front_upleg_twist9
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist1/horse_sk_rt_front_upleg_twist2/horse_sk_rt_front_upleg_twist3/horse_sk_rt_front_upleg_twist4/horse_sk_rt_front_upleg_twist5/horse_sk_rt_front_upleg_twist6/horse_sk_rt_front_upleg_twist7/horse_sk_rt_front_upleg_twist8/horse_sk_rt_front_upleg_twist9/horse_sk_rt_front_lowleg_twist1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist1/horse_sk_rt_front_upleg_twist2/horse_sk_rt_front_upleg_twist3/horse_sk_rt_front_upleg_twist4/horse_sk_rt_front_upleg_twist5/horse_sk_rt_front_upleg_twist6/horse_sk_rt_front_upleg_twist7/horse_sk_rt_front_upleg_twist8/horse_sk_rt_front_upleg_twist9/horse_sk_rt_front_lowleg_twist1/horse_sk_rt_front_lowleg_twist2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist1/horse_sk_rt_front_upleg_twist2/horse_sk_rt_front_upleg_twist3/horse_sk_rt_front_upleg_twist4/horse_sk_rt_front_upleg_twist5/horse_sk_rt_front_upleg_twist6/horse_sk_rt_front_upleg_twist7/horse_sk_rt_front_upleg_twist8/horse_sk_rt_front_upleg_twist9/horse_sk_rt_front_lowleg_twist1/horse_sk_rt_front_lowleg_twist2/horse_sk_rt_front_lowleg_twist3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist1/horse_sk_rt_front_upleg_twist2/horse_sk_rt_front_upleg_twist3/horse_sk_rt_front_upleg_twist4/horse_sk_rt_front_upleg_twist5/horse_sk_rt_front_upleg_twist6/horse_sk_rt_front_upleg_twist7/horse_sk_rt_front_upleg_twist8/horse_sk_rt_front_upleg_twist9/horse_sk_rt_front_lowleg_twist1/horse_sk_rt_front_lowleg_twist2/horse_sk_rt_front_lowleg_twist3/horse_sk_rt_front_lowleg_twist4
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist1/horse_sk_rt_front_upleg_twist2/horse_sk_rt_front_upleg_twist3/horse_sk_rt_front_upleg_twist4/horse_sk_rt_front_upleg_twist5/horse_sk_rt_front_upleg_twist6/horse_sk_rt_front_upleg_twist7/horse_sk_rt_front_upleg_twist8/horse_sk_rt_front_upleg_twist9/horse_sk_rt_front_lowleg_twist1/horse_sk_rt_front_lowleg_twist2/horse_sk_rt_front_lowleg_twist3/horse_sk_rt_front_lowleg_twist4/horse_sk_rt_front_lowleg_twist5
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist1/horse_sk_rt_front_upleg_twist2/horse_sk_rt_front_upleg_twist3/horse_sk_rt_front_upleg_twist4/horse_sk_rt_front_upleg_twist5/horse_sk_rt_front_upleg_twist6/horse_sk_rt_front_upleg_twist7/horse_sk_rt_front_upleg_twist8/horse_sk_rt_front_upleg_twist9/horse_sk_rt_front_lowleg_twist1/horse_sk_rt_front_lowleg_twist2/horse_sk_rt_front_lowleg_twist3/horse_sk_rt_front_lowleg_twist4/horse_sk_rt_front_lowleg_twist5/horse_sk_rt_front_lowleg_twist6
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist1/horse_sk_rt_front_upleg_twist2/horse_sk_rt_front_upleg_twist3/horse_sk_rt_front_upleg_twist4/horse_sk_rt_front_upleg_twist5/horse_sk_rt_front_upleg_twist6/horse_sk_rt_front_upleg_twist7/horse_sk_rt_front_upleg_twist8/horse_sk_rt_front_upleg_twist9/horse_sk_rt_front_lowleg_twist1/horse_sk_rt_front_lowleg_twist2/horse_sk_rt_front_lowleg_twist3/horse_sk_rt_front_lowleg_twist4/horse_sk_rt_front_lowleg_twist5/horse_sk_rt_front_lowleg_twist6/horse_sk_rt_front_lowleg_twist7
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_rt_front_upleg_rollsystem/horse_sk_rt_front_upleg_twist_ikhandle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_sk_rt_front_lowleg_twist_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_rig/horse_body_rig/horse_rt_front_leg_rig/horse_sk_rt_front_upleg_twist_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_chest
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_ac_cn_upper_teeth_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_ac_cn_upper_teeth_offset/horse_ac_cn_upper_teethBase
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_ac_lf_nose_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_ac_rt_nose_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_front_upper_mouth_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_headend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_jaw_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_jaw_offset/horse_sk_cn_jaw
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_jaw_offset/horse_sk_cn_jaw/horse_ac_cn_lower_teeth_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_jaw_offset/horse_sk_cn_jaw/horse_ac_cn_lower_teeth_offset/horse_ac_cn_lower_teethBase
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_jaw_offset/horse_sk_cn_jaw/horse_ac_cn_tongue_0_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_jaw_offset/horse_sk_cn_jaw/horse_ac_cn_tongue_0_offset/horse_ac_cn_tongue_0
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_jaw_offset/horse_sk_cn_jaw/horse_ac_cn_tongue_0_offset/horse_ac_cn_tongue_0/horse_ac_cn_tongue_1_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_jaw_offset/horse_sk_cn_jaw/horse_ac_cn_tongue_0_offset/horse_ac_cn_tongue_0/horse_ac_cn_tongue_1_offset/horse_ac_cn_tongue_1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_jaw_offset/horse_sk_cn_jaw/horse_ac_cn_tongue_0_offset/horse_ac_cn_tongue_0/horse_ac_cn_tongue_1_offset/horse_ac_cn_tongue_1/horse_ac_cn_tongue_2_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_jaw_offset/horse_sk_cn_jaw/horse_ac_cn_tongue_0_offset/horse_ac_cn_tongue_0/horse_ac_cn_tongue_1_offset/horse_ac_cn_tongue_1/horse_ac_cn_tongue_2_offset/horse_ac_cn_tongue_2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_jaw_offset/horse_sk_cn_jaw/horse_ac_cn_tongue_0_offset/horse_ac_cn_tongue_0/horse_ac_cn_tongue_1_offset/horse_ac_cn_tongue_1/horse_ac_cn_tongue_2_offset/horse_ac_cn_tongue_2/horse_ac_cn_tongue_3_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_jaw_offset/horse_sk_cn_jaw/horse_ac_cn_tongue_0_offset/horse_ac_cn_tongue_0/horse_ac_cn_tongue_1_offset/horse_ac_cn_tongue_1/horse_ac_cn_tongue_2_offset/horse_ac_cn_tongue_2/horse_ac_cn_tongue_3_offset/horse_ac_cn_tongue_3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_jaw_offset/horse_sk_cn_jaw/horse_ac_cn_tongue_0_offset/horse_ac_cn_tongue_0/horse_ac_cn_tongue_1_offset/horse_ac_cn_tongue_1/horse_ac_cn_tongue_2_offset/horse_ac_cn_tongue_2/horse_ac_cn_tongue_3_offset/horse_ac_cn_tongue_3/horse_ac_cn_tongue_4_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_jaw_offset/horse_sk_cn_jaw/horse_sk_cn_front_lower_mouth_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_cn_jaw_offset/horse_sk_cn_jaw_locked
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_lf_eye
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_lf_eye/horse_sk_lf_eye_end
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_rt_eye
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_head_offset/horse_sk_cn_head/horse_sk_rt_eye/horse_sk_rt_eye_end
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_neck1_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_neck1_offset/horse_sk_cn_neck1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_neck1_offset/horse_sk_cn_neck1/horse_sk_cn_neck2_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_neck1_offset/horse_sk_cn_neck1/horse_sk_cn_neck2_offset/horse_sk_cn_neck2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_neck1_offset/horse_sk_cn_neck1/horse_sk_cn_neck2_offset/horse_sk_cn_neck2/horse_sk_cn_neck3_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_neck1_offset/horse_sk_cn_neck1/horse_sk_cn_neck2_offset/horse_sk_cn_neck2/horse_sk_cn_neck3_offset/horse_sk_cn_neck3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_neck1_offset/horse_sk_cn_neck1/horse_sk_cn_neck2_offset/horse_sk_cn_neck2/horse_sk_cn_neck3_offset/horse_sk_cn_neck3/horse_sk_cn_neck4_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_neck1_offset/horse_sk_cn_neck1/horse_sk_cn_neck2_offset/horse_sk_cn_neck2/horse_sk_cn_neck3_offset/horse_sk_cn_neck3/horse_sk_cn_neck4_offset/horse_sk_cn_neck4
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_neck1_offset/horse_sk_cn_neck1/horse_sk_cn_neck2_offset/horse_sk_cn_neck2/horse_sk_cn_neck3_offset/horse_sk_cn_neck3/horse_sk_cn_neck4_offset/horse_sk_cn_neck4/horse_sk_cn_neckend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_pelvis
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4/horse_sk_cn_spine5
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4/horse_sk_cn_spine5/horse_ac_cn_middleSpineIK1_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4/horse_sk_cn_spine5/horse_ac_cn_middleSpineIK1_offset/horse_ac_cn_middleSpineIK1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4/horse_sk_cn_spine5/horse_sk_cn_spine6
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4/horse_sk_cn_spine5/horse_sk_cn_spine6/horse_sk_cn_spine7
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4/horse_sk_cn_spine5/horse_sk_cn_spine6/horse_sk_cn_spine7/horse_sk_cn_spine8
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4/horse_sk_cn_spine5/horse_sk_cn_spine6/horse_sk_cn_spine7/horse_sk_cn_spine8/horse_sk_cn_spine9
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4/horse_sk_cn_spine5/horse_sk_cn_spine6/horse_sk_cn_spine7/horse_sk_cn_spine8/horse_sk_cn_spine9/horse_ac_cn_abdomen_breath_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4/horse_sk_cn_spine5/horse_sk_cn_spine6/horse_sk_cn_spine7/horse_sk_cn_spine8/horse_sk_cn_spine9/horse_ac_cn_abdomen_breath_offset/horse_ac_cn_abdomen_breath
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4/horse_sk_cn_spine5/horse_sk_cn_spine6/horse_sk_cn_spine7/horse_sk_cn_spine8/horse_sk_cn_spine9/horse_ac_cn_middleSpineIK2_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4/horse_sk_cn_spine5/horse_sk_cn_spine6/horse_sk_cn_spine7/horse_sk_cn_spine8/horse_sk_cn_spine9/horse_ac_cn_middleSpineIK2_offset/horse_ac_cn_middleSpineIK2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4/horse_sk_cn_spine5/horse_sk_cn_spine6/horse_sk_cn_spine7/horse_sk_cn_spine8/horse_sk_cn_spine9/horse_sk_cn_spine10
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4/horse_sk_cn_spine5/horse_sk_cn_spine6/horse_sk_cn_spine7/horse_sk_cn_spine8/horse_sk_cn_spine9/horse_sk_cn_spine10/horse_sk_cn_spine11
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4/horse_sk_cn_spine5/horse_sk_cn_spine6/horse_sk_cn_spine7/horse_sk_cn_spine8/horse_sk_cn_spine9/horse_sk_cn_spine10/horse_sk_cn_spine11/horse_sk_cn_spine12
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4/horse_sk_cn_spine5/horse_sk_cn_spine6/horse_sk_cn_spine7/horse_sk_cn_spine8/horse_sk_cn_spine9/horse_sk_cn_spine10/horse_sk_cn_spine11/horse_sk_cn_spine12/horse_sk_cn_spineend1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_spine1/horse_sk_cn_spine2/horse_sk_cn_spine3/horse_sk_cn_spine4/horse_sk_cn_spine5/horse_sk_cn_spine6/horse_sk_cn_spine7/horse_sk_cn_spine8/horse_sk_cn_spine9/horse_sk_cn_spine10/horse_sk_cn_spine11/horse_sk_cn_spine12/horse_sk_cn_spineend1/horse_sk_cn_spineend2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_tail0_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_tail0_offset/horse_sk_cn_tail0
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_tail0_offset/horse_sk_cn_tail0/horse_sk_cn_tail0_end
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_tail1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_tail1/horse_sk_cn_tail2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_tail1/horse_sk_cn_tail2/horse_sk_cn_tail3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_tail1/horse_sk_cn_tail2/horse_sk_cn_tail3/horse_sk_cn_tail4
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_cn_tail1/horse_sk_cn_tail2/horse_sk_cn_tail3/horse_sk_cn_tail4/horse_sk_cn_tail5
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_hip_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_hip_offset/horse_sk_lf_back_hip
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_hip_offset/horse_sk_lf_back_hip/horse_sk_back_lf_hipend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/cluster58Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/horse_ac_lf_back_ankle_bend_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/horse_ac_lf_back_ankle_bend_offset/horse_ac_lf_back_ankle_bend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/horse_ac_lf_back_ankle_bend_offset/horse_ac_lf_back_ankle_bend/cluster60Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/horse_ac_lf_back_upleg_bend_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/horse_ac_lf_back_upleg_bend_offset/horse_ac_lf_back_upleg_bend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/horse_ac_lf_back_upleg_bend_offset/horse_ac_lf_back_upleg_bend/cluster59Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/horse_sk_lf_back_ankle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/horse_sk_lf_back_ankle/cluster62Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/horse_sk_lf_back_ankle/horse_ac_lf_back_lowleg_bend_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/horse_sk_lf_back_ankle/horse_ac_lf_back_lowleg_bend_offset/horse_ac_lf_back_lowleg_bend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/horse_sk_lf_back_ankle/horse_ac_lf_back_lowleg_bend_offset/horse_ac_lf_back_lowleg_bend/cluster61Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/horse_sk_lf_back_ankle/horse_lf_back_leg_ankle_cluster
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/horse_sk_lf_back_ankle/horse_sk_lf_back_ankleend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/horse_sk_lf_back_ankle/horse_sk_lf_back_toe_angle_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/horse_sk_lf_back_ankle/horse_sk_lf_back_toe_angle_offset/horse_sk_lf_back_toe_angle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_knee_offset/horse_sk_lf_back_knee/horse_sk_lf_back_upleg_nonroll_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_toe_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_toe_offset/horse_sk_lf_back_toe
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_toe_offset/horse_sk_lf_back_toe/horse_sk_lf_back_foot_aux_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_toe_offset/horse_sk_lf_back_toe/horse_sk_lf_back_hoof
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_toe_offset/horse_sk_lf_back_toe/horse_sk_lf_back_hoof/horse_sk_lf_back_hoofend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_back_leg_grp/horse_sk_lf_back_toe_offset/horse_sk_lf_back_toe/horse_sk_lf_back_toe_nonroll_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_ear1_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_ear1_offset/horse_sk_lf_ear1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_ear1_offset/horse_sk_lf_ear1/horse_sk_lf_ear2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_ear1_offset/horse_sk_lf_ear1/horse_sk_lf_ear2/horse_sk_lf_ear3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_ear1_offset/horse_sk_lf_ear1/horse_sk_lf_ear2/horse_sk_lf_ear3/horse_sk_lf_ear4
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_ear1_offset/horse_sk_lf_ear1/horse_sk_lf_ear2/horse_sk_lf_ear3/horse_sk_lf_ear4/horse_sk_lf_ear_end
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/cluster48Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/horse_ac_lf_front_upleg_bend_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/horse_ac_lf_front_upleg_bend_offset/horse_ac_lf_front_upleg_bend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/horse_ac_lf_front_upleg_bend_offset/horse_ac_lf_front_upleg_bend/cluster49Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/horse_sk_lf_front_knee
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/horse_sk_lf_front_knee/cluster52Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/horse_sk_lf_front_knee/horse_ac_lf_front_knee_bend_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/horse_sk_lf_front_knee/horse_ac_lf_front_knee_bend_offset/horse_ac_lf_front_knee_bend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/horse_sk_lf_front_knee/horse_ac_lf_front_knee_bend_offset/horse_ac_lf_front_knee_bend/cluster50Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/horse_sk_lf_front_knee/horse_ac_lf_front_lowleg_bend_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/horse_sk_lf_front_knee/horse_ac_lf_front_lowleg_bend_offset/horse_ac_lf_front_lowleg_bend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/horse_sk_lf_front_knee/horse_ac_lf_front_lowleg_bend_offset/horse_ac_lf_front_lowleg_bend/cluster51Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/horse_sk_lf_front_knee/horse_lf_front_leg_knee_clusterCluster
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/horse_sk_lf_front_knee/horse_sk_lf_front_elbowend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/horse_sk_lf_front_knee/horse_sk_lf_front_toe_angle_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/horse_sk_lf_front_knee/horse_sk_lf_front_toe_angle_offset/horse_sk_lf_front_toe_angle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_elbow_offset/horse_sk_lf_front_elbow/horse_sk_lf_front_upleg_nonroll_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_shoulder_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_shoulder_offset/horse_sk_lf_front_shoulder
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_shoulder_offset/horse_sk_lf_front_shoulder/horse_sk_lf_front_point_shoulder
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_shoulder_offset/horse_sk_lf_front_shoulder/horse_sk_lf_front_point_shoulder/horse_sk_lf_front_point_shoulder_end
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_toe_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_toe_offset/horse_sk_lf_front_toe
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_toe_offset/horse_sk_lf_front_toe/horse_sk_lf_front_foot_aux_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_toe_offset/horse_sk_lf_front_toe/horse_sk_lf_front_hoof
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_toe_offset/horse_sk_lf_front_toe/horse_sk_lf_front_hoof/horse_sk_lf_front_hoofend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_lf_front_leg_grp/horse_sk_lf_front_toe_offset/horse_sk_lf_front_toe/horse_sk_lf_toe_nonroll_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_hip_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_hip_offset/horse_sk_rt_back_hip
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_hip_offset/horse_sk_rt_back_hip/horse_sk_rt_hipend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/cluster63Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/horse_ac_rt_back_ankle_bend_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/horse_ac_rt_back_ankle_bend_offset/horse_ac_rt_back_ankle_bend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/horse_ac_rt_back_ankle_bend_offset/horse_ac_rt_back_ankle_bend/cluster65Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/horse_ac_rt_back_upleg_bend_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/horse_ac_rt_back_upleg_bend_offset/horse_ac_rt_back_upleg_bend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/horse_ac_rt_back_upleg_bend_offset/horse_ac_rt_back_upleg_bend/cluster64Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/horse_rt_front_leg_knee_cluster
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/horse_sk_rt_back_ankle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/horse_sk_rt_back_ankle/cluster67Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/horse_sk_rt_back_ankle/horse_ac_rt_back_lowleg_bend_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/horse_sk_rt_back_ankle/horse_ac_rt_back_lowleg_bend_offset/horse_ac_rt_back_lowleg_bend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/horse_sk_rt_back_ankle/horse_ac_rt_back_lowleg_bend_offset/horse_ac_rt_back_lowleg_bend/cluster66Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/horse_sk_rt_back_ankle/horse_sk_rt_back_ankleend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/horse_sk_rt_back_ankle/horse_sk_rt_back_toe_angle_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/horse_sk_rt_back_ankle/horse_sk_rt_back_toe_angle_offset/horse_sk_rt_back_toe_angle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_knee_offset/horse_sk_rt_back_knee/horse_sk_rt_back_upleg_nonroll_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_toe_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_toe_offset/horse_sk_rt_back_toe
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_toe_offset/horse_sk_rt_back_toe/horse_sk_rt_back_foot_aux_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_toe_offset/horse_sk_rt_back_toe/horse_sk_rt_back_hoof
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_toe_offset/horse_sk_rt_back_toe/horse_sk_rt_back_hoof/horse_sk_rt_back_hoof_end
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_back_leg_grp/horse_sk_rt_back_toe_offset/horse_sk_rt_back_toe/horse_sk_rt_back_toe_nonroll_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_ear1_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_ear1_offset/horse_sk_rt_ear1
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_ear1_offset/horse_sk_rt_ear1/horse_sk_rt_ear2
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_ear1_offset/horse_sk_rt_ear1/horse_sk_rt_ear2/horse_sk_rt_ear3
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_ear1_offset/horse_sk_rt_ear1/horse_sk_rt_ear2/horse_sk_rt_ear3/horse_sk_rt_ear4
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_ear1_offset/horse_sk_rt_ear1/horse_sk_rt_ear2/horse_sk_rt_ear3/horse_sk_rt_ear4/horse_sk_rt_ear_end
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/cluster53Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/horse_ac_rt_front_upleg_bend_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/horse_ac_rt_front_upleg_bend_offset/horse_ac_rt_front_upleg_bend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/horse_ac_rt_front_upleg_bend_offset/horse_ac_rt_front_upleg_bend/cluster54Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/horse_sk_rt_front_knee
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/horse_sk_rt_front_knee/cluster57Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/horse_sk_rt_front_knee/horse_ac_rt_front_knee_bend_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/horse_sk_rt_front_knee/horse_ac_rt_front_knee_bend_offset/horse_ac_rt_front_knee_bend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/horse_sk_rt_front_knee/horse_ac_rt_front_knee_bend_offset/horse_ac_rt_front_knee_bend/cluster55Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/horse_sk_rt_front_knee/horse_ac_rt_front_lowleg_bend_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/horse_sk_rt_front_knee/horse_ac_rt_front_lowleg_bend_offset/horse_ac_rt_front_lowleg_bend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/horse_sk_rt_front_knee/horse_ac_rt_front_lowleg_bend_offset/horse_ac_rt_front_lowleg_bend/cluster56Handle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/horse_sk_rt_front_knee/horse_rt_front_leg_knee_clusterCluster
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/horse_sk_rt_front_knee/horse_sk_rt_front_elbowend
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/horse_sk_rt_front_knee/horse_sk_rt_front_toe_angle_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/horse_sk_rt_front_knee/horse_sk_rt_front_toe_angle_offset/horse_sk_rt_front_toe_angle
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_elbow_offset/horse_sk_rt_front_elbow/horse_sk_rt_front_upleg_nonroll_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_shoulder_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_shoulder_offset/horse_sk_rt_front_shoulder
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_shoulder_offset/horse_sk_rt_front_shoulder/horse_sk_rt_front_point_shoulder
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_shoulder_offset/horse_sk_rt_front_shoulder/horse_sk_rt_front_point_shoulder/horse_sk_rt_front_point_shoulder_end
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_toe_offset
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_toe_offset/horse_sk_rt_front_toe
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_toe_offset/horse_sk_rt_front_toe/horse_sk_rt_front_foot_aux_ikcurve
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_toe_offset/horse_sk_rt_front_toe/horse_sk_rt_front_hoof
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_toe_offset/horse_sk_rt_front_toe/horse_sk_rt_front_hoof/horse_sk_rt_front_hoof_end
+        weight: 1
+      - path: horse/horse_DO_NOT_TOUCH/horse_skeleton/horse_sk_rt_front_leg_grp/horse_sk_rt_front_toe_offset/horse_sk_rt_front_toe/horse_sk_rt_front_toe_nonroll_ikcurve
+        weight: 1
+      - path: left
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
-    normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -1606,6 +3146,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
