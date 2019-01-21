@@ -172,8 +172,8 @@ public class SimpleCharacterControl : MonoBehaviour {
     
     public void JoystickUpdate(Vector2 axes)
     {
-        float v = axes.x;
-        float h = axes.y;
+        float v = axes.y;
+        float h = axes.x;
 
         Transform camera = Camera.main.transform;
 
