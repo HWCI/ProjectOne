@@ -169,6 +169,8 @@ public class SimpleCharacterControl : MonoBehaviour {
         JumpingAndLanding();
     }
 
+    
+
     private void JumpingAndLanding()
     {
         bool jumpCooldownOver = (Time.time - m_jumpTimeStamp) >= m_minJumpInterval;
