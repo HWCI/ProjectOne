@@ -143,7 +143,8 @@ public class SimpleCharacterControl : MonoBehaviour {
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            v *= m_walkScale;
+
+            
             h *= m_walkScale;
         }
 
