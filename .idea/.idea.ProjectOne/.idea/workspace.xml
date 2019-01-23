@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be7b6098-e810-4cd7-bd5a-607d0ae69fc7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectOne/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectOne/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Ass/Char/Supercyan Character Pack Free Sample/Scripts/SimpleCharacterControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ass/Char/Supercyan Character Pack Free Sample/Scripts/SimpleCharacterControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scene/Map_game01.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scene/Map_game01.unity" afterDir="false" />
-    </list>
+    <list default="true" id="be7b6098-e810-4cd7-bd5a-607d0ae69fc7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,12 +246,12 @@
       <workItem from="1547634880720" duration="47000" />
       <workItem from="1547635017082" duration="841000" />
       <workItem from="1548061572468" duration="370000" />
-      <workItem from="1548064493896" duration="2155000" />
+      <workItem from="1548064493896" duration="2240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3413000" />
+    <option name="totallyTimeSpent" value="3498000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
